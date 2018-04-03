@@ -69,6 +69,7 @@ Now, the "Property Expressions Editor" opens.
 ![Screenshot of Property Expressions Editor](img/04_propertyexpressioneditor.png)
 
 With this editor, you can provide expressions for all properties of an element, as long as they can be set dynamically at all.
+
 17. In the "Property" column, select "ConnectionString"
 18. In the "Expression"  column, click on the ellipsis
 

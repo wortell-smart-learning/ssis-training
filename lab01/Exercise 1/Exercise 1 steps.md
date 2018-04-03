@@ -15,7 +15,7 @@ In lab 1, you will create a first SSIS package. In this exercise, you will creat
 5. Add a *Data Flow Task*. Rename it to *"DFT load dimProductCategory"*
 6. Inside "DFT load dimProductCategory", use the *Source assistant* to create a *new connection manager* with the following settings:
 
-*todo: localhost ipv devmachine?*
+- [ ] todo: localhost ipv devmachine?
 * Server name: *devmachine*
 * Authentication: *Windows Authentication*
 * Database name: *AdventureWorks2016*
@@ -75,7 +75,7 @@ Notice the exclamation mark on the bottom on the window. Now it reads "Map the c
 To check if the package works as expected, perform the following steps:
 
 22. Open SQL Server Management Studio
-*todo: localhost ipv devmachine?*
+- [ ] todo: localhost ipv devmachine?
 23. Connect to devmachine
 24. Execute the following query:
 
@@ -91,6 +91,6 @@ In order to do this, right-click on the package inside the Solution Explorer, an
 26. Return to SSMS, and re-run the query. You should now have four rows.
 
 ## Review and questions
-*todo: kijken of de kolommen wel echt leeg zijn*
+- [ ] todo: kijken of de kolommen wel echt leeg zijn
 - Which columns are empty in DimProductCategory? Why?
 - What would happen if we ran this package for a second time?

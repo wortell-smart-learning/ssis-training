@@ -52,18 +52,18 @@ Notice that this invalidates the data flow task.
 10. Open the Lookup transformation
 11. Open the "Connection" page
 
-[ ] Screenshot maken
+- [ ] Screenshot maken
 
 12. Ensure that the AdventureWorks2016 connection manager has been selected
 13. Select table `[meta].[ProductCategoryTranslation]`
 14. Open the "Columns" page
 15. Drag the "Name"  column from the input to the "Name" column from the lookup table.
 
-[ ] Screenshot maken
+- [ ] Screenshot maken
 
 16. Add checkboxes to FrenchTranslation and SpanishTranslation
 
-[ ] Screenshot maken
+- [ ] Screenshot maken
 
 17. Click "OK"
 
@@ -82,7 +82,7 @@ Notice the red cross besides "Lookup Match Output"
 25. Switch to the "Mappings" page
 26. Map the input columns for French and Spanish translations 
 
-[ ] Screenshot maken
+- [ ] Screenshot maken
 
 27. Click "OK"
 

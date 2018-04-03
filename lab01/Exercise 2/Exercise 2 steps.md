@@ -32,7 +32,7 @@ Under the "SQL Statement" property group, notice that:
 * SQLStatement is empty
 When you click on any property, a description is shown in the grey box below the property list.
 
-*todo: screenshot van properties*
+- [ ] todo: screenshot van properties
 
 6. Configure the task to use the "devmachine.AdventureWorksDW2016_empty" connection manager. You can do this by clicking in the empty box besides "Connection", click the dropdown arrow and select "devmachine.AdventureWorksDW2016_empty"
 

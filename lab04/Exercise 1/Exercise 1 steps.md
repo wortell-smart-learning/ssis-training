@@ -16,11 +16,11 @@ However, before loading *all* CSV files (this will be the next lab), in this exe
 4. Add a Data Flow Task, rename it to "DFT Load Reseller Sales from CSV"
 5. Open the Data Flow Task you just created
 
-![Data Flow Task opened](img/1 - DFT opened.png)
+![Data Flow Task opened](img/1_DFT_opened.png)
 
 6. Using the Source Assistant, create a new Data Flow Source that points to `C:\course\lab04\exports\2014-01.csv`
 8. Name the connection manager "FFC Reseller Sales"
-![Flat File Connection manager](img/3 - FFC setup.png)
+![Flat File Connection manager](img/3_FFC_setup.png)
 9. Go to the "Columns" page to load metadata for the columns
 
 10. Review the column datatypes on the "Advanced" page, make sure the following datatypes are set:
@@ -33,12 +33,12 @@ However, before loading *all* CSV files (this will be the next lab), in this exe
   * StoreID: four-byte signed integer
   * TerritoryID: four-byte signed integer
   * OrderDate: Date
-![Advanced page](img/4 - Advanced page.png)
+![Advanced page](img/4_Advanced_page.png)
 
 11. Click "OK" to create the connection manager and accompanying source
 
 12. Rename the new Flat File Source to "FFS Reseller Sales"
-![FFS Reseller Sales](img/5 - FFS.png)
+![FFS Reseller Sales](img/5_FFS.png)
 
 13. Use Lookup transformations to look up the corresponding dimension keys for the fact table:
 

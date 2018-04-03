@@ -5,8 +5,8 @@ In lab 1, you will create a first SSIS package.
 
 Although we already verified that the package "Load_dimProductCategory.dtsx" worked in exercise 1, we also saw that:
 
-a. columns "SpanishProductCategoryName"  and "FrenchProductCategoryName" were empty
-b. the package always adds all rows available in source
+* columns "SpanishProductCategoryName"  and "FrenchProductCategoryName" were empty
+* the package always adds all rows available in source
 
 In exercise 2, we fixed the second issue by refreshing the table.
 In this exercise (exercise 3), we will add a very basic translation for product category names.
@@ -27,14 +27,14 @@ In this exercise (exercise 3), we will add a very basic translation for product 
 8. Add two columns, with the following properties:
 
 Column 1:
-* Derived Column Name: SpanishProductCategoryName
-* Derived Column: <add as new column>
-* Expression: REPLACE( [Name] , "Bikes", "Bicicleta")
+  * Derived Column Name: SpanishProductCategoryName
+  * Derived Column: <add as new column>
+  * Expression: REPLACE( [Name] , "Bikes", "Bicicleta")
 
 Column 2:
-* Derived Column Name: FrenchProductCategoryName
-* Derived Column: <add as new column>
-* Expression: REPLACE( [Name] , "Bikes", "Vélo")
+  * Derived Column Name: FrenchProductCategoryName
+  * Derived Column: <add as new column>
+  * Expression: REPLACE( [Name] , "Bikes", "Vélo")
 
 9. Click "OK" to apply the changes and close the window
 

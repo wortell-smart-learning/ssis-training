@@ -38,9 +38,9 @@ Now, the red cross disappears.
 
 13. Use the *Destionation Assistant* to create a *new connection manager* with the following settings:
 
-* Server name: *devmachine*
-* Authentication: *Windows Authentication*
-* Database name: *AdventureWorksDW2016_Empty*
+  * Server name: *devmachine*
+  * Authentication: *Windows Authentication*
+  * Database name: *AdventureWorksDW2016_Empty*
 
 14. Click "Test Connection" to verify that the connection settings you just entered are valid
 
@@ -49,8 +49,8 @@ Again, it shows a red cross, because the settings are invalid.
 
 Two things need to be done in order to get the settings right:
 
-a. Provide an input (it's a destination after all)
-b. Provide details which table to use inside the database (the connection manager points to the database, but not specifically towards a table)
+* Provide an input (it's a destination after all)
+* Provide details which table to use inside the database (the connection manager points to the database, but not specifically towards a table)
 
 15. In order to provide an input to the destination, *drag* the output from *"OLE_SRC Production ProductCategory"* towards *"OLE DB Destination"*. A blue arrow appears, pointing from "OLE_SRC Production ProductCategory" towards "OLE DB Destination".
 

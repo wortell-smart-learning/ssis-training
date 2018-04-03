@@ -10,8 +10,8 @@ In lab 1, you will create a first SSIS package. In this exercise, you will creat
 
 Although we already verified that the package "Load_dimProductCategory.dtsx" worked in exercise 1, we also saw that:
 
-a. Columns "SpanishProductCategoryName"  and "FrenchProductCategoryName" were empty
-b. The package always adds all rows available in source, regardless what data is already in `DimProductCategory`.
+* Columns "SpanishProductCategoryName"  and "FrenchProductCategoryName" were empty
+* The package always adds all rows available in source, regardless what data is already in `DimProductCategory`.
 
 In this exercise, we will add a control flow task to truncate the table DimProductCategory prior to loading the rows - effectively a "refresh" operation.
 

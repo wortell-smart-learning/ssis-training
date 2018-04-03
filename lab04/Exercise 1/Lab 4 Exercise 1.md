@@ -21,13 +21,13 @@ In three steps, we are working towards an ETL package that can process all files
 
 ![Data Flow Task opened](img/1_DFT_opened.png)
 6. Using the Source Assistant, create a new Data Flow Source that points to `C:\course\lab04\exports\2014-01.csv` 
-8. Name the connection manager "FFC Reseller Sales"
+7. Name the connection manager "FFC Reseller Sales"
 
 ![Flat File Connection manager](img/3_FFC_setup.png)
 
-9. Go to the "Columns" page to load metadata for the columns
+8. Go to the "Columns" page to load metadata for the columns
 
-10. Review the column datatypes on the "Advanced" page, make sure the following datatypes are set:
+9. Review the column datatypes on the "Advanced" page, make sure the following datatypes are set:
 
   * TotalDue: Decimal
   * SubTotal: Decimal
@@ -40,13 +40,13 @@ In three steps, we are working towards an ETL package that can process all files
 
 ![Advanced page](img/4_Advanced_page.png)
 
-11. Click "OK" to create the connection manager and accompanying source
+10. Click "OK" to create the connection manager and accompanying source
 
-12. Rename the new Flat File Source to "FFS Reseller Sales"
+11. Rename the new Flat File Source to "FFS Reseller Sales"
 
 ![FFS Reseller Sales](img/5_FFS.png)
 
-13. Use Lookup transformations to look up the corresponding dimension keys for the fact table:
+12. Use Lookup transformations to look up the corresponding dimension keys for the fact table:
 
 * LKP dim store key
   * Connection manager: new connection (server: devmachine, database AdventureWorksDW2016_empty)
@@ -68,9 +68,12 @@ In three steps, we are working towards an ETL package that can process all files
   * Lookup: TerritoryID -> SalesTerritoryAlternateKey
   * Include "SalesTerritoryKey" in output
 
-14. Finally, add a destination so that all rows end up in dbo.fact_ResellerSales
-
+13. Finally, add a destination so that all rows end up in dbo.fact_ResellerSales
 
 ## Test
 
-15. Run the package and verify the results via SQL Server Management Studio
+14. Run the package and verify the results via SQL Server Management Studio
+
+## Finish the package
+
+15. Currently, the package always appends data. For test purposes, add a SQL Task before the Data Flow Task, containing the command `TRUNCATE TABLE dbo.fact_ResellerSales`. Rename the task to "SQL Truncate fact_ResellerSales".

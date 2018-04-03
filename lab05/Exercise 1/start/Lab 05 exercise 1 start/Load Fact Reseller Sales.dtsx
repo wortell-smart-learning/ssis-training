@@ -12,8 +12,8 @@
   DTS:ObjectName="Load Fact Reseller Sales"
   DTS:PackageType="5"
   DTS:ProtectionLevel="0"
-  DTS:VersionBuild="9"
-  DTS:VersionGUID="{02C2F9F5-B475-490F-85DF-120A11F260BC}">
+  DTS:VersionBuild="15"
+  DTS:VersionGUID="{A6027DBD-FCC8-4496-B633-8C145FDB0965}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -22,6 +22,8 @@
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{5CD6D7EB-1324-4263-9966-B693DF3CC799}"
       DTS:ObjectName="FFC Reseller Sales">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Package::CsvFolder] + @[User::CSVFilename]</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -112,7 +114,28 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
-  <DTS:Variables />
+  <DTS:PackageParameters>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{0FAC471B-015A-4EF1-98B8-90796B20BD2A}"
+      DTS:ObjectName="CsvFolder">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue">C:\course\lab04\exports\</DTS:Property>
+    </DTS:PackageParameter>
+  </DTS:PackageParameters>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{8E5691D1-26C9-4640-9405-E08FF55D4598}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="CSVFilename">
+      <DTS:VariableValue
+        DTS:DataType="8">2014-01.csv</DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
   <DTS:Executables>
     <DTS:Executable
       DTS:refId="Package\DFT Load Reseller Sales from CSV"
@@ -1080,7 +1103,7 @@ where [refTable].[StoreAlternateKey] = ?</property>
       DTS:refId="Package\SQL Truncate fact_ResellerSales"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:DTSID="{418126B7-7FD5-4AC0-8C12-A1262F158819}"
+      DTS:DTSID="{A25780AD-DA6C-4AE2-86F2-F7071DEC49AF}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="SQL Truncate fact_ResellerSales"
@@ -1098,7 +1121,7 @@ where [refTable].[StoreAlternateKey] = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
-      DTS:DTSID="{3A7D1E9A-1737-44B4-B1C9-5BBEC7364DDC}"
+      DTS:DTSID="{E857A75C-ED9F-4DFD-B239-F39DD76180AB}"
       DTS:From="Package\SQL Truncate fact_ResellerSales"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
@@ -1123,33 +1146,33 @@ where [refTable].[StoreAlternateKey] = ?</property>
         <NodeLayout
           Size="231,42"
           Id="Package\SQL Truncate fact_ResellerSales"
-          TopLeft="511,40" />
+          TopLeft="360,28" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="626.5,82">
+          TopLeft="475.5,70">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-290,33"
+              EndConnector="-139,45"
               Start="0,0"
-              End="-290,25.5">
+              End="-139,37.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,12.5" />
+                    End="0,18.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,12.5"
-                    Point2="0,16.5"
-                    Point3="-4,16.5" />
+                    Point1="0,18.5"
+                    Point2="0,22.5"
+                    Point3="-4,22.5" />
                   <mssgle:LineSegment
-                    End="-286,16.5" />
+                    End="-135,22.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="-286,16.5"
-                    Point2="-290,16.5"
-                    Point3="-290,20.5" />
+                    Point1="-135,22.5"
+                    Point2="-139,22.5"
+                    Point3="-139,26.5" />
                   <mssgle:LineSegment
-                    End="-290,25.5" />
+                    End="-139,37.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1186,42 +1209,6 @@ where [refTable].[StoreAlternateKey] = ?</property>
           Size="202,42"
           Id="Package\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key"
           TopLeft="496,417" />
-        <EdgeLayout
-          Id="Package\DFT Load Reseller Sales from CSV.Paths[Lookup Match Output2]"
-          TopLeft="597,459">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-146,23"
-              Start="0,0"
-              End="-146,15.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,7.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,7.5"
-                    Point2="0,11.5"
-                    Point3="-4,11.5" />
-                  <mssgle:LineSegment
-                    End="-142,11.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-142,11.5"
-                    Point2="-146,11.5"
-                    Point3="-146,15.5" />
-                  <mssgle:LineSegment
-                    End="-146,15.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-121.19138671875,16.5,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\DFT Load Reseller Sales from CSV.Paths[Lookup Match Output1]"
           TopLeft="561,364">
@@ -1325,7 +1312,45 @@ where [refTable].[StoreAlternateKey] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DFT Load Reseller Sales from CSV.Paths[Lookup Match Output2]"
+          TopLeft="597,459">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-146,23"
+              Start="0,0"
+              End="-146,15.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,7.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,7.5"
+                    Point2="0,11.5"
+                    Point3="-4,11.5" />
+                  <mssgle:LineSegment
+                    End="-142,11.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-142,11.5"
+                    Point2="-146,11.5"
+                    Point3="-146,15.5" />
+                  <mssgle:LineSegment
+                    End="-146,15.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-121.19138671875,16.5,96.3827734375,11.609375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

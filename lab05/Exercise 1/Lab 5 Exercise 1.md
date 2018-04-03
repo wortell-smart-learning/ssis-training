@@ -1,5 +1,5 @@
 # Lab 5 - Exercise 1
-- [ ] Todo: datum toevoegen aan fact
+
 ## Description
 In addition to the data available in the database, our customer has some CSV files containing reseller sales data of 2014.
 In the previous lab, we created an ETL flow to load this data from a particular file
@@ -8,7 +8,7 @@ In this lab, we will extend the ETL package so it will load all files the custom
 ## Steps
 
 ### Getting ready
-1. Open "Lab 05 start.sln" from the "start" folder, or continue where you left off after finishing lab 04.
+1. Open "Lab 05 Exercise 1 start.sln" from the "start" folder, or continue where you left off after finishing lab 04.
 2. Open package "Load Fact Reseller Sales.dtx"
 3. Switch to the parameters tab
 4. Replace the value of `C:\course\lab04\exports\` with `C:\course\lab05\exports\`
@@ -53,7 +53,7 @@ Configure the following options:
 
 ### Reflection (in-between)
 15. Take a moment to think about the following questions:
-  * What value does variable `User::CSVFilename` have /outside/ FEL ResellerSales exports?
+  * What value does variable `User::CSVFilename` have *outside* "FEL ResellerSales exports"?
   * What value does it have within FEL ResellerSales exports?
 
 ### Re-arrange the Control Flow
@@ -62,25 +62,28 @@ Configure the following options:
 18. Add a new precedence constraint between  `SQL Truncate Fact ResellerSales` and `FEL ResellerSales exports`
 19. Open menu "Format" -> Auto Layout -> Diagram
 
+![Re-arranged control flow](img/4-fel-arranged.png)
+
 ## Test
 20. Try running the package, review the results in SQL Server Management Studio. 
 
   * Are all files loaded?
   * Is the total number of rows in the fact table as you expected?
 
-## Bonus
-### Bonus 1: Use fully qualified path
+## Configure the Foreach Loop so that it iterates inside the parameterized path
+Although the package wordt, the the Foreach Loop currently has its path fixed at `C:\course\lab05\exports\`
+This is unwanted behaviour: we provide a path inside the package parameter, so the package is expected to iterate over that path - not a possibly different path configured inside the package.
+
+21. Open the Foreach Loop Editor by double-clicking on the container header bar (the large grey bar with icon, arrow and title)
+22. Switch to the "Collection" page
+23. Try to figure out how to set the Folder property using an expression (where the expression is the parameter value).
+
+  
+## Bonus: Use fully qualified path
 In the ForEach Loop editor, you configured to retrieve only the *name and extension* from the file.
 Change this to *fully qualified*, and re-run the package.
   * Why does the package fail?
 
-21. Alter the package so that it works using the *fully qualified* path.
+24. Alter the package so that it works using the *fully qualified* path.
 
-### Bonus 2: Configure the Foreach Loop so that it iterates inside the parameterized path
-Currently, the Foreach Loop has its path fixed at `C:\course\lab05\exports\`
-This is unwanted behaviour: we provide a path inside the package parameter, so the package is expected to iterate over that path - not a possibly different path configured inside the package.
-
-22. Open the Foreach Loop Editor by double-clicking on the container header bar (the large grey bar with icon, arrow and title)
-23. Switch to the "Collection" page
-24. Try to figure out how to set the Folder property using an expression (where the expression is the parameter value).
 

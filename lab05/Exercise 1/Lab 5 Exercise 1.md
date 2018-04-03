@@ -45,7 +45,7 @@ Configure the following options:
  * Verify that "Traverse subfolders" is *not* checked
 
 12. Switch to the "Variable Mappings" page
-13. Select variable "User::CSVFilename" in the first cell. The index "0" is added automatically.
+13. Select variable `User::CSVFilename` in the first cell. The index "0" is added automatically.
 
 ![Variable Mapping](img/3-fel-variables.png)
 
@@ -53,7 +53,7 @@ Configure the following options:
 
 ### Reflection (in-between)
 15. Take a moment to think about the following questions:
-  * What value does variable "User::CSVFilename" have /outside/ FEL ResellerSales exports?
+  * What value does variable `User::CSVFilename` have /outside/ FEL ResellerSales exports?
   * What value does it have within FEL ResellerSales exports?
 
 ### Re-arrange the Control Flow

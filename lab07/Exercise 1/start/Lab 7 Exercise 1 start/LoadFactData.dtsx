@@ -1,0 +1,1501 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="4/3/2018 4:08:30 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-E6RD582"
+  DTS:CreatorName="AzureAD\KoosvanStrien"
+  DTS:DTSID="{C7760AD1-8D71-44C6-B8DC-C5953642F3CF}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="14.0.3008.28"
+  DTS:LocaleID="1043"
+  DTS:ObjectName="LoadFactData"
+  DTS:PackageType="5"
+  DTS:ProtectionLevel="0"
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{4078D53F-2499-4EA3-9F1C-BFF1DAA31DE6}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[FFC Reseller Sales]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{5CD6D7EB-1324-4263-9966-B693DF3CC799}"
+      DTS:ObjectName="FFC Reseller Sales">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[User::FilePath]</DTS:PropertyExpression>
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\course\lab07\exports\2014\00\export.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="14"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TotalDue"
+              DTS:DTSID="{20358511-0CB4-4E64-B584-91A98B6F07E1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="14"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SubTotal"
+              DTS:DTSID="{3A322C15-3C6D-4ED4-918C-425D7BEE26F6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="14"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TaxAmt"
+              DTS:DTSID="{0FA55A2A-5047-4715-98FA-C6834638D44E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="14"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Freight"
+              DTS:DTSID="{F9840D2F-8CAB-4ACC-A41E-D49E61DCEAD9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ProductID"
+              DTS:DTSID="{17E1BC57-0C8E-4CF8-8A9C-32911C61F89C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="StoreID"
+              DTS:DTSID="{86B36EED-6E54-4DEC-981A-B6AB3A95C94B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TerritoryID"
+              DTS:DTSID="{94905E7D-3097-4BB4-86F6-32DCF3DC6094}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="OrderDate"
+              DTS:DTSID="{74B135B2-9149-49CE-AAE1-71027074B547}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.AdventureworksDW2016_empty]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{F5E1B283-1532-4613-AC98-C76BB0600FDC}"
+      DTS:ObjectName="localhost.AdventureworksDW2016_empty">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=AdventureworksDW2016_empty;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:PackageParameters>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{288D717C-A55C-4D79-A167-B8BB7ABDF8FA}"
+      DTS:ObjectName="BaseFolder">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue">C:\course\lab07\exports\</DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="3"
+      DTS:DTSID="{E4CC17E9-C57F-4ADC-B71C-CF67A14490E6}"
+      DTS:ObjectName="Year">
+      <DTS:Property
+        DTS:DataType="3"
+        DTS:Name="ParameterValue">2014</DTS:Property>
+    </DTS:PackageParameter>
+  </DTS:PackageParameters>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{A741BB69-79F2-4E62-9703-17FD44BCF8DD}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="Counter">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{DDCD291B-8705-409E-A928-34300C43B480}"
+      DTS:EvaluateAsExpression="True"
+      DTS:Expression="@[$Package::BaseFolder] + (DT_WSTR, 4) @[$Package::Year] + &quot;\\&quot; + RIGHT(&quot;0&quot; + (DT_WSTR, 2) @[User::Counter], 2) + &quot;\\export.csv&quot;"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="FilePath">
+      <DTS:VariableValue
+        DTS:DataType="8">C:\course\lab07\exports\2014\00\export.csv</DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\FLC load all data"
+      DTS:AssignExpression="@Counter = @Counter + 1"
+      DTS:CreationName="STOCK:FORLOOP"
+      DTS:Description="For Loop Container"
+      DTS:DTSID="{0CA87CE2-F6E1-4B59-AF84-30720B69A50A}"
+      DTS:EvalExpression="@Counter &lt; 6"
+      DTS:ExecutableType="STOCK:FORLOOP"
+      DTS:InitExpression="@Counter = 1"
+      DTS:LocaleID="-1"
+      DTS:MaxConcurrent="1"
+      DTS:ObjectName="FLC load all data">
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\FLC load all data\DFT Load Reseller Sales from CSV"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Data Flow Task"
+          DTS:DTSID="{c7dcfbce-5519-46d9-910f-91ffd104ab54}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="DFT Load Reseller Sales from CSV"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <component
+                  refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\DC Convert OrderDate to Date"
+                  componentClassID="Microsoft.DataConvert"
+                  contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Data Conversion"
+                  name="DC Convert OrderDate to Date"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\DC Convert OrderDate to Date.Inputs[Data Conversion Input]"
+                      name="Data Conversion Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\DC Convert OrderDate to Date.Inputs[Data Conversion Input].Columns[OrderDate]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="OrderDate"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[OrderDate]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\DC Convert OrderDate to Date.Outputs[Data Conversion Output]"
+                      exclusionGroup="1"
+                      name="Data Conversion Output"
+                      synchronousInputId="Package\FLC load all data\DFT Load Reseller Sales from CSV\DC Convert OrderDate to Date.Inputs[Data Conversion Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\DC Convert OrderDate to Date.Outputs[Data Conversion Output].Columns[OrderDate_date]"
+                          dataType="date"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\DC Convert OrderDate to Date.Outputs[Data Conversion Output].Columns[OrderDate_date]"
+                          name="OrderDate_date"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the input column used as the source of data for the conversion."
+                              name="SourceInputColumnLineageID">#{Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[OrderDate]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\DC Convert OrderDate to Date.Outputs[Data Conversion Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Data Conversion Error Output"
+                      synchronousInputId="Package\FLC load all data\DFT Load Reseller Sales from CSV\DC Convert OrderDate to Date.Inputs[Data Conversion Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\DC Convert OrderDate to Date.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\DC Convert OrderDate to Date.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\DC Convert OrderDate to Date.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\DC Convert OrderDate to Date.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales"
+                  componentClassID="Microsoft.FlatFileSource"
+                  contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+                  description="Flat File Source"
+                  localeId="1033"
+                  name="FFS Reseller Sales"
+                  usesDispositions="true"
+                  version="1">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      description="Specifies whether zero-length columns are treated as null."
+                      name="RetainNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                      name="FileNameColumnName"></property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Connections[FlatFileConnection]"
+                      connectionManagerID="Package.ConnectionManagers[FFC Reseller Sales]"
+                      connectionManagerRefId="Package.ConnectionManagers[FFC Reseller Sales]"
+                      name="FlatFileConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output]"
+                      name="Flat File Source Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[TotalDue]"
+                          dataType="decimal"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].ExternalColumns[TotalDue]"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[TotalDue]"
+                          name="TotalDue"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[SubTotal]"
+                          dataType="decimal"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].ExternalColumns[SubTotal]"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[SubTotal]"
+                          name="SubTotal"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[TaxAmt]"
+                          dataType="decimal"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].ExternalColumns[TaxAmt]"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[TaxAmt]"
+                          name="TaxAmt"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[Freight]"
+                          dataType="decimal"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].ExternalColumns[Freight]"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[Freight]"
+                          name="Freight"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[ProductID]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].ExternalColumns[ProductID]"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[ProductID]"
+                          name="ProductID"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[StoreID]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].ExternalColumns[StoreID]"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[StoreID]"
+                          name="StoreID"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[TerritoryID]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].ExternalColumns[TerritoryID]"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[TerritoryID]"
+                          name="TerritoryID"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[OrderDate]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].ExternalColumns[OrderDate]"
+                          length="50"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[OrderDate]"
+                          name="OrderDate"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the data is in binary format."
+                              name="UseBinaryFormat">false</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].ExternalColumns[TotalDue]"
+                          dataType="decimal"
+                          name="TotalDue" />
+                        <externalMetadataColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].ExternalColumns[SubTotal]"
+                          dataType="decimal"
+                          name="SubTotal" />
+                        <externalMetadataColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].ExternalColumns[TaxAmt]"
+                          dataType="decimal"
+                          name="TaxAmt" />
+                        <externalMetadataColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].ExternalColumns[Freight]"
+                          dataType="decimal"
+                          name="Freight" />
+                        <externalMetadataColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].ExternalColumns[ProductID]"
+                          dataType="i4"
+                          name="ProductID" />
+                        <externalMetadataColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].ExternalColumns[StoreID]"
+                          dataType="i4"
+                          name="StoreID" />
+                        <externalMetadataColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].ExternalColumns[TerritoryID]"
+                          dataType="i4"
+                          name="TerritoryID" />
+                        <externalMetadataColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].ExternalColumns[OrderDate]"
+                          dataType="wstr"
+                          length="50"
+                          name="OrderDate" />
+                      </externalMetadataColumns>
+                    </output>
+                    <output
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Error Output]"
+                      isErrorOut="true"
+                      name="Flat File Source Error Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                          codePage="65001"
+                          dataType="text"
+                          description="Flat File Source Error Output Column"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                          name="Flat File Source Error Output Column" />
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key"
+                  componentClassID="Microsoft.Lookup"
+                  contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+                  description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+                  name="LKP dim product key"
+                  usesDispositions="true"
+                  version="6">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the SQL statement that generates the lookup table."
+                      expressionType="Notify"
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[dim_Product]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                      expressionType="Notify"
+                      name="SqlCommandParam"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[dim_Product]) [refTable]
+where [refTable].[ProductAlternateKey] = ?</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the type of connection used to access the reference dataset."
+                      name="ConnectionType"
+                      typeConverter="LookupConnectionType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the cache type of the lookup table."
+                      name="CacheType"
+                      typeConverter="CacheType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                      name="NoMatchBehavior"
+                      typeConverter="LookupNoMatchBehavior">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                      name="NoMatchCachePercentage">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                      name="MaxMemoryUsage">25</property>
+                    <property
+                      dataType="System.Int64"
+                      description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                      name="MaxMemoryUsage64">25</property>
+                    <property
+                      dataType="System.String"
+                      description="Indicates whether to reference metadata in an XML format."
+                      name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="ProductKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ProductAlternateKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="EnglishProductName" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="SpanishProductName" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="FrenchProductName" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ProductNumber" dataType="DT_WSTR" length="25" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Color" dataType="DT_WSTR" length="15" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Size" dataType="DT_WSTR" length="5" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="SizeUnitMeasureCode" dataType="DT_WSTR" length="3" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ListPrice" dataType="DT_NUMERIC" length="0" precision="30" scale="2" codePage="0"/&gt;&lt;referenceColumn name="StandardCost" dataType="DT_NUMERIC" length="0" precision="30" scale="2" codePage="0"/&gt;&lt;referenceColumn name="Weight" dataType="DT_NUMERIC" length="0" precision="8" scale="2" codePage="0"/&gt;&lt;referenceColumn name="WeightUnitMeasureCode" dataType="DT_WSTR" length="3" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Class" dataType="DT_WSTR" length="2" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Style" dataType="DT_WSTR" length="2" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ProductSubcategoryKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                      name="ParameterMap">#{Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[ProductID]};</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                      name="TreatDuplicateKeysAsError">false</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[localhost.AdventureworksDW2016_empty]"
+                      connectionManagerRefId="Package.ConnectionManagers[localhost.AdventureworksDW2016_empty]"
+                      description="Connection manager used to access lookup data."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key.Inputs[Lookup Input]"
+                      name="Lookup Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key.Inputs[Lookup Input].Columns[ProductID]"
+                          cachedDataType="i4"
+                          cachedName="ProductID"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[ProductID]">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Specifies the column in the reference table that a column joins."
+                              name="JoinToReferenceColumn">ProductAlternateKey</property>
+                            <property
+                              dataType="System.Null"
+                              description="Specifies the column in the reference table from which a column is copied."
+                              name="CopyFromReferenceColumn" />
+                          </properties>
+                        </inputColumn>
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key.Outputs[Lookup Match Output]"
+                      errorOrTruncationOperation="Lookup"
+                      errorRowDisposition="FailComponent"
+                      exclusionGroup="1"
+                      name="Lookup Match Output"
+                      synchronousInputId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key.Inputs[Lookup Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key.Outputs[Lookup Match Output].Columns[ProductKey]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Copy Column"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key.Outputs[Lookup Match Output].Columns[ProductKey]"
+                          name="ProductKey"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Specifies the column in the reference table from which a column is copied."
+                              name="CopyFromReferenceColumn">ProductKey</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key.Outputs[Lookup No Match Output]"
+                      description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                      exclusionGroup="1"
+                      name="Lookup No Match Output"
+                      synchronousInputId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key.Inputs[Lookup Input]">
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key.Outputs[Lookup Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Lookup Error Output"
+                      synchronousInputId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key.Inputs[Lookup Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key"
+                  componentClassID="Microsoft.Lookup"
+                  contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+                  description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+                  name="LKP dim Salesterritory key"
+                  usesDispositions="true"
+                  version="6">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the SQL statement that generates the lookup table."
+                      expressionType="Notify"
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[dim_SalesTerritory]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                      expressionType="Notify"
+                      name="SqlCommandParam"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[dim_SalesTerritory]) [refTable]
+where [refTable].[SalesTerritoryAlternateKey] = ?</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the type of connection used to access the reference dataset."
+                      name="ConnectionType"
+                      typeConverter="LookupConnectionType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the cache type of the lookup table."
+                      name="CacheType"
+                      typeConverter="CacheType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                      name="NoMatchBehavior"
+                      typeConverter="LookupNoMatchBehavior">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                      name="NoMatchCachePercentage">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                      name="MaxMemoryUsage">25</property>
+                    <property
+                      dataType="System.Int64"
+                      description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                      name="MaxMemoryUsage64">25</property>
+                    <property
+                      dataType="System.String"
+                      description="Indicates whether to reference metadata in an XML format."
+                      name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="SalesTerritoryKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="SalesTerritoryAlternateKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="SalesTerritoryName" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="SalesTerritoryCountryRegionCode" dataType="DT_WSTR" length="3" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="SalesTerritoryGroup" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                      name="ParameterMap">#{Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[TerritoryID]};</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                      name="TreatDuplicateKeysAsError">false</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[localhost.AdventureworksDW2016_empty]"
+                      connectionManagerRefId="Package.ConnectionManagers[localhost.AdventureworksDW2016_empty]"
+                      description="Connection manager used to access lookup data."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key.Inputs[Lookup Input]"
+                      name="Lookup Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key.Inputs[Lookup Input].Columns[TerritoryID]"
+                          cachedDataType="i4"
+                          cachedName="TerritoryID"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[TerritoryID]">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Specifies the column in the reference table that a column joins."
+                              name="JoinToReferenceColumn">SalesTerritoryAlternateKey</property>
+                            <property
+                              dataType="System.Null"
+                              description="Specifies the column in the reference table from which a column is copied."
+                              name="CopyFromReferenceColumn" />
+                          </properties>
+                        </inputColumn>
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key.Outputs[Lookup Match Output]"
+                      errorOrTruncationOperation="Lookup"
+                      errorRowDisposition="FailComponent"
+                      exclusionGroup="1"
+                      name="Lookup Match Output"
+                      synchronousInputId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key.Inputs[Lookup Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key.Outputs[Lookup Match Output].Columns[SalesTerritoryKey]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Copy Column"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key.Outputs[Lookup Match Output].Columns[SalesTerritoryKey]"
+                          name="SalesTerritoryKey"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Specifies the column in the reference table from which a column is copied."
+                              name="CopyFromReferenceColumn">SalesTerritoryKey</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key.Outputs[Lookup No Match Output]"
+                      description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                      exclusionGroup="1"
+                      name="Lookup No Match Output"
+                      synchronousInputId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key.Inputs[Lookup Input]">
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key.Outputs[Lookup Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Lookup Error Output"
+                      synchronousInputId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key.Inputs[Lookup Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key"
+                  componentClassID="Microsoft.Lookup"
+                  contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+                  description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+                  name="LKP dim store key"
+                  usesDispositions="true"
+                  version="6">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the SQL statement that generates the lookup table."
+                      expressionType="Notify"
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[dim_Store]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                      expressionType="Notify"
+                      name="SqlCommandParam"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[dim_Store]) [refTable]
+where [refTable].[StoreAlternateKey] = ?</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the type of connection used to access the reference dataset."
+                      name="ConnectionType"
+                      typeConverter="LookupConnectionType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the cache type of the lookup table."
+                      name="CacheType"
+                      typeConverter="CacheType">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                      name="NoMatchBehavior"
+                      typeConverter="LookupNoMatchBehavior">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                      name="NoMatchCachePercentage">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                      name="MaxMemoryUsage">25</property>
+                    <property
+                      dataType="System.Int64"
+                      description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                      name="MaxMemoryUsage64">25</property>
+                    <property
+                      dataType="System.String"
+                      description="Indicates whether to reference metadata in an XML format."
+                      name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="StoreKey" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="StoreAlternateKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Name" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="AddressType" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="AddressLine1" dataType="DT_WSTR" length="60" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="AddressLine2" dataType="DT_WSTR" length="60" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="City" dataType="DT_WSTR" length="30" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="StateProvinceName" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="PostalCode" dataType="DT_WSTR" length="15" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="CountryRegionName" dataType="DT_WSTR" length="50" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                      name="ParameterMap">#{Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[StoreID]};</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                      name="TreatDuplicateKeysAsError">false</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[localhost.AdventureworksDW2016_empty]"
+                      connectionManagerRefId="Package.ConnectionManagers[localhost.AdventureworksDW2016_empty]"
+                      description="Connection manager used to access lookup data."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key.Inputs[Lookup Input]"
+                      name="Lookup Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key.Inputs[Lookup Input].Columns[StoreID]"
+                          cachedDataType="i4"
+                          cachedName="StoreID"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[StoreID]">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Specifies the column in the reference table that a column joins."
+                              name="JoinToReferenceColumn">StoreAlternateKey</property>
+                            <property
+                              dataType="System.Null"
+                              description="Specifies the column in the reference table from which a column is copied."
+                              name="CopyFromReferenceColumn" />
+                          </properties>
+                        </inputColumn>
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key.Outputs[Lookup Match Output]"
+                      errorOrTruncationOperation="Lookup"
+                      errorRowDisposition="FailComponent"
+                      exclusionGroup="1"
+                      name="Lookup Match Output"
+                      synchronousInputId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key.Inputs[Lookup Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key.Outputs[Lookup Match Output].Columns[StoreKey]"
+                          dataType="i8"
+                          errorOrTruncationOperation="Copy Column"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key.Outputs[Lookup Match Output].Columns[StoreKey]"
+                          name="StoreKey"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              dataType="System.String"
+                              description="Specifies the column in the reference table from which a column is copied."
+                              name="CopyFromReferenceColumn">StoreKey</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key.Outputs[Lookup No Match Output]"
+                      description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                      exclusionGroup="1"
+                      name="Lookup No Match Output"
+                      synchronousInputId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key.Inputs[Lookup Input]">
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key.Outputs[Lookup Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Lookup Error Output"
+                      synchronousInputId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key.Inputs[Lookup Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                  description="OLE DB Destination"
+                  name="OLE_DST Fact Reseller Sales"
+                  usesDispositions="true"
+                  version="4">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dbo].[fact_ResellerSales]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">3</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepIdentity">false</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                      name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                      name="FastLoadMaxInsertCommitSize">2147483647</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[localhost.AdventureworksDW2016_empty]"
+                      connectionManagerRefId="Package.ConnectionManagers[localhost.AdventureworksDW2016_empty]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input]"
+                      errorOrTruncationOperation="Insert"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="OLE DB Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].Columns[TotalDue]"
+                          cachedDataType="decimal"
+                          cachedName="TotalDue"
+                          externalMetadataColumnId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].ExternalColumns[TotalDue]"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[TotalDue]" />
+                        <inputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].Columns[SubTotal]"
+                          cachedDataType="decimal"
+                          cachedName="SubTotal"
+                          externalMetadataColumnId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].ExternalColumns[SubTotal]"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[SubTotal]" />
+                        <inputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].Columns[TaxAmt]"
+                          cachedDataType="decimal"
+                          cachedName="TaxAmt"
+                          externalMetadataColumnId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].ExternalColumns[TaxAmt]"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[TaxAmt]" />
+                        <inputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].Columns[Freight]"
+                          cachedDataType="decimal"
+                          cachedName="Freight"
+                          externalMetadataColumnId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].ExternalColumns[Freight]"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output].Columns[Freight]" />
+                        <inputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].Columns[StoreKey]"
+                          cachedDataType="i8"
+                          cachedName="StoreKey"
+                          externalMetadataColumnId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].ExternalColumns[StoreKey]"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key.Outputs[Lookup Match Output].Columns[StoreKey]" />
+                        <inputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].Columns[ProductKey]"
+                          cachedDataType="i4"
+                          cachedName="ProductKey"
+                          externalMetadataColumnId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].ExternalColumns[ProductKey]"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key.Outputs[Lookup Match Output].Columns[ProductKey]" />
+                        <inputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].Columns[SalesTerritoryKey]"
+                          cachedDataType="i4"
+                          cachedName="SalesTerritoryKey"
+                          externalMetadataColumnId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].ExternalColumns[SalesTerritoryKey]"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key.Outputs[Lookup Match Output].Columns[SalesTerritoryKey]" />
+                        <inputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].Columns[OrderDate_date]"
+                          cachedDataType="date"
+                          cachedName="OrderDate_date"
+                          externalMetadataColumnId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].ExternalColumns[OrderDate]"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\DC Convert OrderDate to Date.Outputs[Data Conversion Output].Columns[OrderDate_date]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].ExternalColumns[TotalDue]"
+                          dataType="numeric"
+                          name="TotalDue"
+                          precision="30"
+                          scale="4" />
+                        <externalMetadataColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].ExternalColumns[SubTotal]"
+                          dataType="numeric"
+                          name="SubTotal"
+                          precision="30"
+                          scale="4" />
+                        <externalMetadataColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].ExternalColumns[TaxAmt]"
+                          dataType="numeric"
+                          name="TaxAmt"
+                          precision="30"
+                          scale="4" />
+                        <externalMetadataColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].ExternalColumns[Freight]"
+                          dataType="numeric"
+                          name="Freight"
+                          precision="30"
+                          scale="4" />
+                        <externalMetadataColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].ExternalColumns[ProductKey]"
+                          dataType="i4"
+                          name="ProductKey" />
+                        <externalMetadataColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].ExternalColumns[StoreKey]"
+                          dataType="i8"
+                          name="StoreKey" />
+                        <externalMetadataColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].ExternalColumns[SalesTerritoryKey]"
+                          dataType="i4"
+                          name="SalesTerritoryKey" />
+                        <externalMetadataColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input].ExternalColumns[OrderDate]"
+                          dataType="dbDate"
+                          name="OrderDate" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Outputs[OLE DB Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="OLE DB Destination Error Output"
+                      synchronousInputId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+              </components>
+              <paths>
+                <path
+                  refId="Package\FLC load all data\DFT Load Reseller Sales from CSV.Paths[Data Conversion Output]"
+                  endId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key.Inputs[Lookup Input]"
+                  name="Data Conversion Output"
+                  startId="Package\FLC load all data\DFT Load Reseller Sales from CSV\DC Convert OrderDate to Date.Outputs[Data Conversion Output]" />
+                <path
+                  refId="Package\FLC load all data\DFT Load Reseller Sales from CSV.Paths[Flat File Source Output]"
+                  endId="Package\FLC load all data\DFT Load Reseller Sales from CSV\DC Convert OrderDate to Date.Inputs[Data Conversion Input]"
+                  name="Flat File Source Output"
+                  startId="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales.Outputs[Flat File Source Output]" />
+                <path
+                  refId="Package\FLC load all data\DFT Load Reseller Sales from CSV.Paths[Lookup Match Output]"
+                  endId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key.Inputs[Lookup Input]"
+                  name="Lookup Match Output"
+                  startId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key.Outputs[Lookup Match Output]" />
+                <path
+                  refId="Package\FLC load all data\DFT Load Reseller Sales from CSV.Paths[Lookup Match Output1]"
+                  endId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key.Inputs[Lookup Input]"
+                  name="Lookup Match Output"
+                  startId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key.Outputs[Lookup Match Output]" />
+                <path
+                  refId="Package\FLC load all data\DFT Load Reseller Sales from CSV.Paths[Lookup Match Output2]"
+                  endId="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales.Inputs[OLE DB Destination Input]"
+                  name="Lookup Match Output"
+                  startId="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key.Outputs[Lookup Match Output]" />
+              </paths>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\SQL Truncate fact_ResellerSales"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{839aa316-671b-44cc-9449-e60e03e66143}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="SQL Truncate fact_ResellerSales"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{F5E1B283-1532-4613-AC98-C76BB0600FDC}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE dbo.fact_ResellerSales" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{E6C36B35-8E8D-482F-B0C7-2E34F63A586E}"
+      DTS:From="Package\SQL Truncate fact_ResellerSales"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\FLC load all data" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph">
+        <AnnotationLayout
+          Text="Notice this is a For loop, not a ForEach loop!"
+          ParentId="Package\FLC load all data"
+          FontInfo="{assembly:Null}"
+          Size="263,40"
+          Id="8f7571c0-9f5c-48ca-9d3b-fe029daf9a71"
+          TopLeft="5.5,6.5" />
+        <NodeLayout
+          Size="239,42"
+          Id="Package\FLC load all data\DFT Load Reseller Sales from CSV"
+          TopLeft="329.5,5.5" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="574,102"
+          Size="574,146"
+          Id="Package\FLC load all data"
+          TopLeft="5.50000000000006,107.5" />
+        <NodeLayout
+          Size="231,42"
+          Id="Package\SQL Truncate fact_ResellerSales"
+          TopLeft="177,5.5" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="292.5,47.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\FLC load all data\DFT Load Reseller Sales from CSV">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="164,42"
+          Id="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key"
+          TopLeft="35,209.5" />
+        <NodeLayout
+          Size="202,42"
+          Id="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key"
+          TopLeft="16.0000000000001,413.5" />
+        <NodeLayout
+          Size="214,42"
+          Id="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales"
+          TopLeft="10.0000000000001,515.5" />
+        <NodeLayout
+          Size="164,42"
+          Id="Package\FLC load all data\DFT Load Reseller Sales from CSV\FFS Reseller Sales"
+          TopLeft="35,5.5" />
+        <NodeLayout
+          Size="176,42"
+          Id="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key"
+          TopLeft="29,311.5" />
+        <EdgeLayout
+          Id="Package\FLC load all data\DFT Load Reseller Sales from CSV.Paths[Lookup Match Output1]"
+          TopLeft="117,353.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,20.4453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\FLC load all data\DFT Load Reseller Sales from CSV.Paths[Lookup Match Output]"
+          TopLeft="117,251.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,20.4453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\FLC load all data\DFT Load Reseller Sales from CSV.Paths[Lookup Match Output2]"
+          TopLeft="117,455.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,20.4453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="223,42"
+          Id="Package\FLC load all data\DFT Load Reseller Sales from CSV\DC Convert OrderDate to Date"
+          TopLeft="5.50000000000001,107.5" />
+        <EdgeLayout
+          Id="Package\FLC load all data\DFT Load Reseller Sales from CSV.Paths[Flat File Source Output]"
+          TopLeft="117,47.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\FLC load all data\DFT Load Reseller Sales from CSV.Paths[Data Conversion Output]"
+          TopLeft="117,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim store key">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim Salesterritory key">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\FLC load all data\DFT Load Reseller Sales from CSV\OLE_DST Fact Reseller Sales">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\FLC load all data\DFT Load Reseller Sales from CSV\LKP dim product key">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

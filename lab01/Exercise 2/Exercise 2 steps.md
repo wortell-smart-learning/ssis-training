@@ -1,4 +1,4 @@
-# Lab 01 - Exercise 2
+# Lab 1 - Exercise 2
 
 ## Description
 In lab 1, you will create a first SSIS package. In this exercise, you will create some Control Flow logic to make the package repeatable.
@@ -47,5 +47,5 @@ Before testing and executing this package, one more thing needs to be configured
 (Hint: in which order are the two tasks executed?)
 10. Perform the necessary task to ensure that the two tasks are executed in order
 
-### Review
+## Review
 * Although very straightforward, refreshing (truncate table followed by insert all rows) isn't something you see a lot when loading Data Warehouse dimensions. Can you imagine why?

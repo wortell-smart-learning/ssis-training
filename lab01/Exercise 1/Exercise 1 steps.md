@@ -1,7 +1,7 @@
-# Lab 01 - Exercise 1
+# Lab 1 - Exercise 1
 
 ## Description
-In this lab, you will create your first SSIS package.
+In lab 1, you will create a first SSIS package. In this exercise, you will create a first Data Flow.
 
 ## Steps
 
@@ -48,6 +48,7 @@ A new component has been added for you to the data flow canvas, labeled "OLE DB 
 Again, it shows a red cross, because the settings are invalid.
 
 Two things need to be done in order to get the settings right:
+
 a. Provide an input (it's a destination after all)
 b. Provide details which table to use inside the database (the connection manager points to the database, but not specifically towards a table)
 
@@ -89,7 +90,7 @@ In order to do this, right-click on the package inside the Solution Explorer, an
 
 26. Return to SSMS, and re-run the query. You should now have four rows.
 
-### Questions
+## Review and questions
 *todo: kijken of de kolommen wel echt leeg zijn*
 - Which columns are empty in DimProductCategory? Why?
 - What would happen if we ran this package for a second time?

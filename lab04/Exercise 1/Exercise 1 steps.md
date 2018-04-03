@@ -33,11 +33,13 @@ However, before loading *all* CSV files (this will be the next lab), in this exe
   * StoreID: four-byte signed integer
   * TerritoryID: four-byte signed integer
   * OrderDate: Date
+
 ![Advanced page](img/4_Advanced_page.png)
 
 11. Click "OK" to create the connection manager and accompanying source
 
 12. Rename the new Flat File Source to "FFS Reseller Sales"
+
 ![FFS Reseller Sales](img/5_FFS.png)
 
 13. Use Lookup transformations to look up the corresponding dimension keys for the fact table:

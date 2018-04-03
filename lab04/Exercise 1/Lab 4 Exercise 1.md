@@ -20,9 +20,11 @@ In three steps, we are working towards an ETL package that can process all files
 5. Open the Data Flow Task you just created
 
 ![Data Flow Task opened](img/1_DFT_opened.png)
-6. Using the Source Assistant, create a new Data Flow Source that points to `C:\course\lab04\exports\2014-01.csv`
+6. Using the Source Assistant, create a new Data Flow Source that points to `C:\course\lab04\exports\2014-01.csv` 
 8. Name the connection manager "FFC Reseller Sales"
+
 ![Flat File Connection manager](img/3_FFC_setup.png)
+
 9. Go to the "Columns" page to load metadata for the columns
 
 10. Review the column datatypes on the "Advanced" page, make sure the following datatypes are set:

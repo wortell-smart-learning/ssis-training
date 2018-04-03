@@ -28,13 +28,13 @@ In this exercise (exercise 3), we will add a very basic translation for product 
 
 Column 1:
   * Derived Column Name: SpanishProductCategoryName
-  * Derived Column: <add as new column>
-  * Expression: REPLACE( [Name] , "Bikes", "Bicicleta")
+  * Derived Column: add as new column
+  * Expression: `REPLACE( [Name] , "Bikes", "Bicicleta")`
 
 Column 2:
   * Derived Column Name: FrenchProductCategoryName
-  * Derived Column: <add as new column>
-  * Expression: REPLACE( [Name] , "Bikes", "Vélo")
+  * Derived Column: add as new column
+  * Expression: `REPLACE( [Name] , "Bikes", "Vélo")`
 
 9. Click "OK" to apply the changes and close the window
 

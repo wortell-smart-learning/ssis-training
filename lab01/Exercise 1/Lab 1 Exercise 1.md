@@ -78,7 +78,7 @@ To check if the package works as expected, perform the following steps:
 24. Execute the following query:
 
 ```SQL
-SELECT * FROM AdventureworksDW2016_empty.dbo.DimProductCategory
+SELECT * FROM AdventureworksDW2016_empty.dbo.Dim_ProductCategory
 ```
 
 An empty table should be returned.

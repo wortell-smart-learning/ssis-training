@@ -1,0 +1,67 @@
+# Uitwerking SSIS slides, labs en demo’s dag 3
+## Uitwerking labs dag 3
+### Deployment & configuration
+Er zijn veel manieren om je SSIS deployements te automatiseren: via Continuous Delivery, met installatiescripts via PowerShell, via SQL-scripts en nog veel meer. De stap die je als ontwikkelaar echter het meest zal moeten doen, is de deployment van packages naar je ontwikkel- of testserver. Dat is dan ook waar we hier op zullen richten.
+
+Open het project “testsolution.sln”
+Rechtsklik op de projectnaam, klik “Deploy”
+
+Doorloop de wizard
+
+Open SQL Server Management Studio
+
+SSIS Catalogs -> SSISDB -> MyDeploymentFolder
+
+Op een server gelden vaak net iets andere credentials en mappen dan op je lokale ontwikkelomgeving. Dat is ook één van de redenen waarom we packages dynamisch maken met package- en project-level parameters.
+
+Op een SSIS Catalog worden de instellingen gegroepeerd op basis van:
+* Environments. Dit is een verzameling van variabelen met specifieke waarden. Een voorbeeld van een “environment” kan “Ontwikkelserver” zijn.
+* Variabelen. Deze bevinden zich binnen een environment, en bevatten de specifieke waarden voor die environment. Bijvoorbeeld variabele “DWServer” die op “rabo_dw_dev_001.rabobank.nl” staat.
+* Environment references. Elk project dat gedeployd wordt kan refereren aan een environment. Dat betekent dat de waarden uit die specifieke environment gebruikt kunnen worden.
+
+Binnen een project kunnen vervolgens de *package connection managers*, *project connection managers*, *package parameters* en *project parameters* geconfigureerd worden.
+
+### BIML
+Basis: BIML zonder script. 
+Open dit voorbeeld BIML script, bekijk het.
+Rechtsklik op abcd.biml, klik “Generate SSIS packages”
+Open het gegenereerde package, voer het uit.
+
+Pas aan: 
+
+
+## Demo’s en labs dag 3
+### Deployment & configuration
+- demo deploying and configuring
+- lab deploying and configuring
+
+
+### BIML primer
+- demo BIML basics control flow
+- demo BIML basics data flow
+- lab invullen van voorbeelden in BIML
+- lab BIML zelf opbouwen (of met code-chunks)
+- lab voorproefje model-driven
+
+### Middag-lab
+- Klein sterschema (reeds gemodelleerd) uitprogrammeren in SSIS
+- Naar keuze met extra BIML-zaken
+
+## Dag 3 uitgesplitst in methodes
+### Deployment & configuration
+* *demo* deploying and configuring SSIS packages
+* *Lab* deploying and configuring SSIS packages
+
+### BIML primer
+* *slides* BIML basics: control flow
+* *slides* BIML basics: data flow
+* *demo* BIML basics: control flow
+* *demo* BIML basics: data flow
+* *lab* invullen van voorbeelden in BIML
+* *lab* extra: zelf BIML opbouwen (of met “bricks”)
+* *lab* extra-extra: voorproefje van model-driven
+
+* Lunch
+
+* *lab* 
+* Middaglab: volledige implementatie van SSIS-opzet. Naar keuze in BIML of “plain” SSIS.

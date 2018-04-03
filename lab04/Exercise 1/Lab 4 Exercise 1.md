@@ -2,8 +2,11 @@
 
 ## Description
 In addition to the data available in the database, our customer has some CSV files containing reseller sales data of 2014.
-In order to load this data, we will iterate over all CSV files. 
-However, before loading *all* CSV files (this will be the next lab), in this exercise we will  figure out how to load a single one of them
+
+In three steps, we are working towards an ETL package that can process all files in a folder:
+* exercise 1 (current exercise): Create a static load package, to prove that the load logic works
+* exercise 2: Make this package dynamic by using parameters, variables and expressions
+* lab 5: Make the package loop across all files in the folder using a ForEach-loop
 
 ## Steps
 

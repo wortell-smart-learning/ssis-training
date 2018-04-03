@@ -1,5 +1,5 @@
 # Lab 5 - Exercise 1
-
+- [ ] Todo: datum toevoegen aan fact
 ## Description
 In addition to the data available in the database, our customer has some CSV files containing reseller sales data of 2014.
 In the previous lab, we created an ETL flow to load this data from a particular file

@@ -39,10 +39,8 @@ Column 2:
 9. Click "OK" to apply the changes and close the window
 
 10. Rename "Derived Column" to "DER Translate ProductCategoryName"
-
-11. Drag the output from "Derived Column" towards "OLE_DST DimProductCategory"
-
-12. Open "OLE_DST DimProductCategory"
+11. Drag the output from "Derived Column" towards "OLE_DST Dim_ProductCategory"
+12. Open "OLE_DST Dim_ProductCategory"
 13. Open the "Mappings" page
 14. Map the new columns towards their destination:
 

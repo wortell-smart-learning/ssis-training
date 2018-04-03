@@ -7,10 +7,10 @@ This is a rather unusual way of looking up data, because you're storing values (
 In this exercise, we will use a lookup table to perform the translations.
 
 ## Steps
-1. Open the solution "Lab 02 Exercise 1" from the "Starter" folder
+1. Open the solution "Lab 02 Exercise 1" from the "Start" folder
 
 ### Create a lookup table inside the database, fill it with values
-2. Open SQL Server Management Studio, connect to "devmachine".
+2. Open SQL Server Management Studio, connect to "localhost".
 3. Execute the following script from the file "Query1 - create meta ProductCategoryTranslation.sql"
 
 ```SQL
@@ -41,7 +41,7 @@ GO
 
 4. Switch to Visual Studio
 5. Open the package "Load_dimProductCategory.dtsx"
-6. Open "DFT Load dimProductCategory"
+6. Open "DFT Load dim_ProductCategory"
 7. Delete "DER Translate ProductCategoryName"
 
 Notice that this invalidates the data flow task.
@@ -51,38 +51,37 @@ Notice that this invalidates the data flow task.
 
 10. Open the Lookup transformation
 11. Open the "Connection" page
-
-- [ ] Screenshot maken
-
 12. Ensure that the AdventureWorks2016 connection manager has been selected
 13. Select table `[meta].[ProductCategoryTranslation]`
+
+![Lookup connection](img/01_LookupConnection.png)
+
 14. Open the "Columns" page
 15. Drag the "Name"  column from the input to the "Name" column from the lookup table.
-
-- [ ] Screenshot maken
-
 16. Add checkboxes to FrenchTranslation and SpanishTranslation
 
-- [ ] Screenshot maken
+![Lookup columns](img/02_LookupColumns.png)
 
 17. Click "OK"
 
 18. Rename "Lookup" to "LKP translation of productcategory"
 
-19. Drag the output flow from "LKP translation of productcategory" towards "OLE_DST DimProductCategory"
+19. Drag the output flow from "LKP translation of productcategory" towards "OLE_DST Dim_ProductCategory"
 20. Choose "Lookup Match Output"
 
 Notice the red cross besides "Lookup Match Output"
 
 21. Right-click the red cross and choose "Resolve references"
+![Resolve references](img/03_ResolveReferences.png)
+
 22. Select "Delete Unmapped Input Columns"
 23. Click "OK"
 
-24. Open "OLE_DST DimProductCategory"
+24. Open "OLE_DST Dim_ProductCategory"
 25. Switch to the "Mappings" page
 26. Map the input columns for French and Spanish translations 
 
-- [ ] Screenshot maken
+![Destination mappings](img/04_dstmappings.png)
 
 27. Click "OK"
 

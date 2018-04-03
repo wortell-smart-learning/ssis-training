@@ -71,7 +71,7 @@ Configure the following options:
   * Is the total number of rows in the fact table as you expected?
 
 ## Configure the Foreach Loop so that it iterates inside the parameterized path
-Although the package wordt, the the Foreach Loop currently has its path fixed at `C:\course\lab05\exports\`
+Although the package works, the Foreach Loop currently has its path fixed at `C:\course\lab05\exports\`
 This is unwanted behaviour: we provide a path inside the package parameter, so the package is expected to iterate over that path - not a possibly different path configured inside the package.
 
 21. Open the Foreach Loop Editor by double-clicking on the container header bar (the large grey bar with icon, arrow and title)

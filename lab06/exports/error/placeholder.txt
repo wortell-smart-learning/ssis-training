@@ -1,0 +1,1 @@
+Git doesn't catch empty folders - that's why there's a "placeholder file" in here.

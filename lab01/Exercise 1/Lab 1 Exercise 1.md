@@ -7,7 +7,7 @@ In lab 1, you will create a first SSIS package. In this exercise, you will creat
 
 ### Create a new (empty) SSIS project
 1. Open *SQL Server Data Tools* (Visual Studio)
-2. Create a *new SSIS project*. Name it *"Lab 01"*.
+2. Create a *new SSIS project*. Name it *"Lab01"*. Ensure that the location is inside the "c:\course\lab01\studentsolution"
 3. *Delete* the package *"Package.dtsx"* that has been added automatically
 
 ### Create a Data Flow Task
@@ -15,12 +15,11 @@ In lab 1, you will create a first SSIS package. In this exercise, you will creat
 5. Add a *Data Flow Task*. Rename it to *"DFT load dimProductCategory"*
 6. Inside "DFT load dimProductCategory", use the *Source assistant* to create a *new connection manager* with the following settings:
 
-- [ ] todo: localhost ipv devmachine?
-* Server name: *devmachine*
+* Server name: *localhost*
 * Authentication: *Windows Authentication*
 * Database name: *AdventureWorks2016*
 
-7. Click *"Test Connection"* to verify that the connection settings you just entered are valid
+7. Click *"Test Connection"* to verify that the connection settings you just entered are valid. Click "OK".
 
 A new component has been added for you to the data flow canvas, labeled *"OLE DB Source"*.
 Currently, it shows a red cross, because the settings are invalid.
@@ -38,7 +37,7 @@ Now, the red cross disappears.
 
 13. Use the *Destionation Assistant* to create a *new connection manager* with the following settings:
 
-  * Server name: *devmachine*
+  * Server name: *localhost*
   * Authentication: *Windows Authentication*
   * Database name: *AdventureWorksDW2016_Empty*
 
@@ -58,7 +57,7 @@ Two things need to be done in order to get the settings right:
 A popup window opens, similar to the one shown below ![Destination editor](img/2_DataFlow_DestinationComponentEditor.png)
 Notice the exclamation mark on the bottom of the popup. It reads "Select a table or view from the list." 
 
-17. Open the *dropdown* under the text "Name of the table or the view:" and *select "[dbo].[DimProductCategory]"*
+17. Open the *dropdown* under the text "Name of the table or the view:" and *select "[dbo].[Dim_ProductCategory]"*
 
 Notice the exclamation mark on the bottom on the window. Now it reads "Map the columns on the Mappings page."
 
@@ -68,15 +67,14 @@ Notice the exclamation mark on the bottom on the window. Now it reads "Map the c
 * Name -> EnglishProductCategoryName
 
 19. Click "OK"  to close the window
-20. Rename "OLE DB Destination" to "OLE_DST DimProductCategory"
+20. Rename "OLE DB Destination" to "OLE_DST Dim_ProductCategory"
 21. Save the package.
 
 ### Check if the package works as expected
 To check if the package works as expected, perform the following steps:
 
 22. Open SQL Server Management Studio
-- [ ] todo: localhost ipv devmachine?
-23. Connect to devmachine
+23. Connect to localhost
 24. Execute the following query:
 
 ```SQL
@@ -91,6 +89,5 @@ In order to do this, right-click on the package inside the Solution Explorer, an
 26. Return to SSMS, and re-run the query. You should now have four rows.
 
 ## Review and questions
-- [ ] todo: kijken of de kolommen wel echt leeg zijn
-- Which columns are empty in DimProductCategory? Why?
+- Which columns are empty in Dim_ProductCategory? Why?
 - What would happen if we ran this package for a second time?

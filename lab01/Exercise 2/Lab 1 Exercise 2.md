@@ -6,18 +6,18 @@ In lab 1, you will create a first SSIS package. In this exercise, you will creat
 ## Steps
 
 ### Open solution
-1. Open solution "Lab 01 Exercise 2" (or continue where you left off after exercise 1)
+1. Open solution "Lab 01 Exercise 2 start" from the "Start" folder (or continue where you left off after exercise 1)
 
 Although we already verified that the package "Load_dimProductCategory.dtsx" worked in exercise 1, we also saw that:
 
 * Columns "SpanishProductCategoryName"  and "FrenchProductCategoryName" were empty
-* The package always adds all rows available in source, regardless what data is already in `DimProductCategory`.
+* The package always adds all rows available in source, regardless what data is already in `Dim_ProductCategory`.
 
 In this exercise, we will add a control flow task to truncate the table DimProductCategory prior to loading the rows - effectively a "refresh" operation.
 
 ### Add a Control Flow task to empty a table before loading it
 
-2. *Open Load_dimStore.dtsx* (if not already opened)
+2. *Open Load_dimProductCategory.dtsx* (if not already opened)
 3. Switch to the Control Flow
 4. Add an *"Execute SQL Task"* by dragging the corresponding task from the *SSIS Toolbox* to the *Control Flow Canvas*.
 
@@ -32,11 +32,13 @@ Under the "SQL Statement" property group, notice that:
 * SQLStatement is empty
 When you click on any property, a description is shown in the grey box below the property list.
 
-- [ ] todo: screenshot van properties
+![Screenshot of properties](img/01_screenshot_properties.png)
 
-6. Configure the task to use the "devmachine.AdventureWorksDW2016_empty" connection manager. You can do this by clicking in the empty box besides "Connection", click the dropdown arrow and select "devmachine.AdventureWorksDW2016_empty"
+6. Configure the task to use the "localhost.AdventureWorksDW2016_empty" connection manager. You can do this by clicking in the empty box besides "Connection", click the dropdown arrow and select "localhost.AdventureWorksDW2016_empty"
 
-7. Enter the SQL Statement `TRUNCATE TABLE dbo.dimProductCategory` inside the *"SQLStatement"* Property
+7. Enter the SQL Statement `TRUNCATE TABLE dbo.dim_ProductCategory` inside the *"SQLStatement"* Property
+
+![Screenshot of filled settings](img/02_filled_settings.png)
 
 8. Click "OK" to store all changes and close the window.
 9. Rename the task to "SQL Truncate dimProductCategory"

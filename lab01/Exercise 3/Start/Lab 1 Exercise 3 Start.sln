@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Lab 1 Exercise 3 Start", "Lab 1 Exercise 3 Start\Lab 1 Exercise 3 Start.dtproj", "{FBB3BE6D-65FF-4EAD-AA5F-BE79D607C5D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBB3BE6D-65FF-4EAD-AA5F-BE79D607C5D2}.Development|Default.ActiveCfg = Development
+		{FBB3BE6D-65FF-4EAD-AA5F-BE79D607C5D2}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7F3D674-7996-41FA-AC8A-9F7CB45247AA}
+	EndGlobalSection
+EndGlobal

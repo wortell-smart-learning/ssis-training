@@ -6,7 +6,7 @@ In lab 1, you will create a first SSIS package. In this exercise, you will creat
 ## Steps
 
 ### Open solution
-1. Open solution "Lab 01 Exercise 2 start" from the "Start" folder (or continue where you left off after exercise 1)
+1. Open solution "Lab 1 Exercise 2 start" from the "Start" folder (or continue where you left off after exercise 1)
 
 Although we already verified that the package "Load_dimProductCategory.dtsx" worked in exercise 1, we also saw that:
 
@@ -41,12 +41,13 @@ When you click on any property, a description is shown in the grey box below the
 ![Screenshot of filled settings](img/02_filled_settings.png)
 
 8. Click "OK" to store all changes and close the window.
-9. Rename the task to "SQL Truncate dimProductCategory"
+9. Rename the task to "SQL Truncate dim_ProductCategory"
 
 ### Finishing the Control flow
 
 Before testing and executing this package, one more thing needs to be configured to make sure the you'll never end up with an empty table.
 (Hint: in which order are the two tasks executed?)
+
 10. Perform the necessary task to ensure that the two tasks are executed in order
 
 ## Review

@@ -14,12 +14,12 @@ In this exercise (exercise 3), we will add a very basic translation for product 
 ## Steps
 
 ### Open solution
-1. Open solution "Lab 01 Exercise 3" (or continue where you left off after exercise 2)
+1. Open solution "Lab 01 Exercise 3 Start" from the "Start" folder (or continue where you left off after exercise 2)
 
 2. Open Load_dimProductCategory.dtsx
 
 ### Extend the Data Flow Task
-3. Open DFT Load dimProductCategory
+3. Open DFT Load dim_ProductCategory
 4. Remove the data flow arrow between OLE_SRC Production ProductCategory and OLE_DST DimProductCategory.
 5. Add a Derived Column transformation to the data flow canvas
 6. Drag the output from OLE_SRC Production ProductCategory towards the new Derived Column transformation.

@@ -18,3 +18,7 @@ Op een SSIS Catalog worden de instellingen gegroepeerd op basis van:
 * Environment references. Elk project dat gedeployd wordt kan refereren aan een environment. Dat betekent dat de waarden uit die specifieke environment gebruikt kunnen worden.
 
 Binnen een project kunnen vervolgens de *package connection managers*, *project connection managers*, *package parameters* en *project parameters* geconfigureerd worden.
+
+
+
+https://docs.microsoft.com/en-us/sql/integration-services/packages/deploy-integration-services-ssis-projects-and-packages#to-create-and-use-a-server-environment

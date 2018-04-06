@@ -7,13 +7,13 @@ It's up to you to build it in SSIS, or to try and build in BIML. Another option 
 
 ## Requirements
 
-Inside the folder "preparation" you will find some SQL-files that construct a simple star scheme (some dimensions as well as facts). Execute this SQL script on your AdventureWorksDW2016_empty-database.
+Inside the folder "preparation" you will find some SQL-files that construct a simple star scheme (some dimensions as well as facts). This will create a new database called "BITrainer_SSIS"
 
 Your task is to fill these tables using SSIS. In order to get there, you'll need the following sources:
 
 * Dimensions Customer and Product are delivered from within SQL Server the way you're used to (two views inside the AdventureWorks2016 database)
 * Dimension Date is already present in the Data Warehouse - you don't have to fill this one
-* Fact NewSales is delivered using CSV files. These might contain incorrect rows, which have to end up in the NewSales_errors table.
+* Fact NewSales is delivered using CSV files. These might contain incorrect rows, which have to end up in the NewSales_errors table (you need to create any error tables yourself).
 * Fact OldSales is delivered from a TSV file (tab separated value). This works almost like a CSV (but with a different delimiter)
 * Be sure not only to include the due date and ship date, but also the order date. This date can *not* be found inside the files, but is contained in the file- and folder names. With some expression help you will succeed.
 

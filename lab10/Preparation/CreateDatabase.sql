@@ -27,7 +27,7 @@ CREATE TABLE [dbo].[FactNewSales](
 )
 GO
 
-CREATE TABLE [dbo].[FactResellerSales](
+CREATE TABLE [dbo].[FactOldSales](
 	[ProductKey] [int] NOT NULL,
 	[OrderDateKey] [date] NOT NULL,
 	[DueDateKey] [date] NOT NULL,

@@ -94,4 +94,4 @@ In order to do this, right-click on the package inside the Solution Explorer, an
 
 ## Next steps
 
-Continue with [exercise 2]("../Exercise 02")
+Continue with [exercise 2](../Exercise%2002)

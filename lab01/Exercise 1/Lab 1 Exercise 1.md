@@ -91,3 +91,7 @@ In order to do this, right-click on the package inside the Solution Explorer, an
 ## Review and questions
 - Which columns are empty in Dim_ProductCategory? Why?
 - What would happen if we ran this package for a second time?
+
+## Next steps
+
+Continue with [exercise 2]("../Exercise 02")

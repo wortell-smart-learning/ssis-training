@@ -67,7 +67,7 @@ Column 2:
 Below you find category names in English (En), Spanish (Es) and French (Fr):
 
 * En: Components, Es: Componente, Fr: Composant
-* En: Clothing, Es: Prenda, Fr: V�tements
+* En: Clothing, Es: Prenda, Fr: V&#234;tements
 * En: Accessories, Es: Accesorio, Fr: Accessoire
 
 ### Bonus exercise 2

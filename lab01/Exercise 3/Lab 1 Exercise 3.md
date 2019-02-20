@@ -39,7 +39,7 @@ Column 2:
 
   * Derived Column Name: FrenchProductCategoryName
   * Derived Column: add as new column
-  * Expression: `REPLACE( [Name] , "Bikes", "V&#233;lo")`
+  * Expression: `REPLACE( [Name] , "Bikes", "Vélo")`
 
 9. Click "OK" to apply the changes and close the window
 

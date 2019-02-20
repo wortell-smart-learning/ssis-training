@@ -1,6 +1,7 @@
 # Lab 1 - Exercise 3
 
 ## Description
+
 In lab 1, you will create a first SSIS package. 
 
 Although we already verified that the package "Load_dimProductCategory.dtsx" worked in exercise 1, we also saw that:
@@ -14,11 +15,13 @@ In this exercise (exercise 3), we will add a very basic translation for product 
 ## Steps
 
 ### Open solution
+
 1. Open solution "Lab 01 Exercise 3 Start" from the "Start" folder (or continue where you left off after exercise 2)
 
 2. Open Load_dimProductCategory.dtsx
 
 ### Extend the Data Flow Task
+
 3. Open DFT Load dim_ProductCategory
 4. Remove the data flow arrow between OLE_SRC Production ProductCategory and OLE_DST DimProductCategory.
 5. Add a Derived Column transformation to the data flow canvas
@@ -27,14 +30,16 @@ In this exercise (exercise 3), we will add a very basic translation for product 
 8. Add two columns, with the following properties:
 
 Column 1:
+
   * Derived Column Name: SpanishProductCategoryName
   * Derived Column: add as new column
   * Expression: `REPLACE( [Name] , "Bikes", "Bicicleta")`
 
 Column 2:
+
   * Derived Column Name: FrenchProductCategoryName
   * Derived Column: add as new column
-  * Expression: `REPLACE( [Name] , "Bikes", "Vélo")`
+  * Expression: `REPLACE( [Name] , "Bikes", "Vï¿½lo")`
 
 9. Click "OK" to apply the changes and close the window
 
@@ -52,20 +57,27 @@ Column 2:
 16. Notice the yellow exclamation mark besides the OLE_DST. Can you figure out why this happens?
 
 ### Test 
+
 17. Run the package, and check the results using SQL Server Management Studio. Is this what you expected?
 
 ### Bonus exercise 1
+
 18. Can you extend the translations towards the other product category names?
 
 Below you find category names in English (En), Spanish (Es) and French (Fr):
 
 * En: Components, Es: Componente, Fr: Composant
-* En: Clothing, Es: Prenda, Fr: Vêtements
+* En: Clothing, Es: Prenda, Fr: Vï¿½tements
 * En: Accessories, Es: Accesorio, Fr: Accessoire
 
 ### Bonus exercise 2
+
 19. Remove the yellow exclamation mark. In order to do this, you have to figure out how type casts work inside an SSIS expression (type casts are basically ways of transforming one data type into another)
 
 ## Review
 
 As you might have guessed, this is a rather unusual way of adding translations. Later on, we will explore more efficient ways to do this.
+
+## Next steps
+
+This is the end of lab 01. Have a coffee, discuss your findings about SSIS, and continue with [Lab 2](../../lab02/Exercise%201)!

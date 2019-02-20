@@ -1,16 +1,19 @@
 # Lab 1 - Exercise 1
 
 ## Description
+
 In lab 1, you will create a first SSIS package. In this exercise, you will create a first Data Flow.
 
 ## Steps
 
 ### Create a new (empty) SSIS project
+
 1. Open *SQL Server Data Tools* (Visual Studio)
 2. Create a *new SSIS project*. Name it *"Lab01"*. Ensure that the location is inside the "c:\course\lab01\studentsolution"
 3. *Delete* the package *"Package.dtsx"* that has been added automatically
 
 ### Create a Data Flow Task
+
 4. Add a *new package*, call it *"Load_dimProductCategory.dtsx"*
 5. Add a *Data Flow Task*. Rename it to *"DFT load dimProductCategory"*
 6. Inside "DFT load dimProductCategory", use the *Source assistant* to create a *new connection manager* with the following settings:
@@ -71,6 +74,7 @@ Notice the exclamation mark on the bottom on the window. Now it reads "Map the c
 21. Save the package.
 
 ### Check if the package works as expected
+
 To check if the package works as expected, perform the following steps:
 
 22. Open SQL Server Management Studio
@@ -89,6 +93,7 @@ In order to do this, right-click on the package inside the Solution Explorer, an
 26. Return to SSMS, and re-run the query. You should now have four rows.
 
 ## Review and questions
+
 - Which columns are empty in Dim_ProductCategory? Why?
 - What would happen if we ran this package for a second time?
 

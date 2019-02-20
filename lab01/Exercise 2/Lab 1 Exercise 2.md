@@ -1,11 +1,13 @@
 # Lab 1 - Exercise 2
 
 ## Description
+
 In lab 1, you will create a first SSIS package. In this exercise, you will create some Control Flow logic to make the package repeatable.
 
 ## Steps
 
 ### Open solution
+
 1. Open solution "Lab 1 Exercise 2 start" from the "Start" folder (or continue where you left off after exercise 1)
 
 Although we already verified that the package "Load_dimProductCategory.dtsx" worked in exercise 1, we also saw that:
@@ -26,10 +28,12 @@ The task will show up bearing a red cross, indicating that it won't work current
 5. *Open* the *"Execute SQL Task"* by double-clicking on it.
 
 Under the "SQL Statement" property group, notice that:
+
 * An "OLE DB" ConnectionType has been selected. This is the type of connection we currently use for all our SQL Server connections in this package
 * currently no connection manager has been selected.
 * A SQLSourceType of "Direct input" has been selected. This means basically that you can enter a SQL query inside the next property, which will be executed using the task
 * SQLStatement is empty
+
 When you click on any property, a description is shown in the grey box below the property list.
 
 ![Screenshot of properties](img/01_screenshot_properties.png)
@@ -51,4 +55,9 @@ Before testing and executing this package, one more thing needs to be configured
 10. Perform the necessary task to ensure that the two tasks are executed in order
 
 ## Review
+
 * Although very straightforward, refreshing (truncate table followed by insert all rows) isn't something you see a lot when loading Data Warehouse dimensions. Can you imagine why?
+
+## Next steps
+
+Continue with [exercise 3](../Exercise%203)

@@ -31,15 +31,15 @@ In this exercise (exercise 3), we will add a very basic translation for product 
 
 Column 1:
 
-  * Derived Column Name: SpanishProductCategoryName
-  * Derived Column: add as new column
-  * Expression: `REPLACE( [Name] , "Bikes", "Bicicleta")`
+* Derived Column Name: SpanishProductCategoryName
+* Derived Column: add as new column
+* Expression: `REPLACE( [Name] , "Bikes", "Bicicleta")`
 
 Column 2:
 
-  * Derived Column Name: FrenchProductCategoryName
-  * Derived Column: add as new column
-  * Expression: `REPLACE( [Name] , "Bikes", "Vélo")`
+* Derived Column Name: FrenchProductCategoryName
+* Derived Column: add as new column
+* Expression: `REPLACE( [Name] , "Bikes", "Vélo")`
 
 9. Click "OK" to apply the changes and close the window
 
@@ -56,7 +56,7 @@ Column 2:
 
 16. Notice the yellow exclamation mark besides the OLE_DST. Can you figure out why this happens?
 
-### Test 
+### Test
 
 17. Run the package, and check the results using SQL Server Management Studio. Is this what you expected?
 

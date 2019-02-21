@@ -1,6 +1,7 @@
 # Lab 6 Exercise 2
 
 ## Description
+
 In lab 5, we developed an ETL package to load some extra sales data from CSV files.
 However, apparently the data isn't always present. How do we handle that in a good way?
 
@@ -10,10 +11,12 @@ In exercise 2 (current exercise) we will extend the error handling using "error 
 ## Steps
 
 ### Getting ready
+
 1. Open "Lab 6 Exercise 2 start.sln" from the "start" folder. Depending on whether you completed the "bonus" assignment, the package might look a little different from the one you finished with in the previuos exercise.
 2. Open package "Load Fact Reseller Sales.dtx"
 
 ### Identify the point at which errors occur in the Data Flow
+
 In the previous exercise, we identified files containing errors: whenever the Data Flow failed, we would copy the file to an "error" folder.
 In this exercise, we will look whether we can pinpoint the rows that cause errors.
 
@@ -75,18 +78,20 @@ SSDT shows the "Configure Error Output" window for you to check if all redirects
 21. Open SSMS, and select the rows inside `dbo.errfact_ResellerSalesErrors`. Can you see what goes wrong?
 
 ## Solving the problem
+
 Apparently, the system who delivered our source data was misconfigured. The source system administrators promised to fix it.
 
 * If you're running out of time, well be glad: the data has just arrived! Just re-configure the parameter so that the source folder "C:\course\lab06\exports" is replaced by "C:\course\lab06\export2".
 * If you need some extra challenge, here it is: the data hasn't arrived yet, but the data is needed ASAP. Luckily, the adminstrators pointed out that you can find out which file is different by looking at the suffix "nl". Here's your challenge:
   * Add a second data flow which handles the "_nl" files correctly
   * Configure the precedence constraints with expressions, so that:
-	* files without the "nl" suffix will be processed by the original data flow
-	* files with the "nl" suffix will be processed by the alternative data flow
+  * files without the "nl" suffix will be processed by the original data flow
+  * files with the "nl" suffix will be processed by the alternative data flow
 
 Looking for even more challenge? You can tidy the just-created solution up by splitting up the files in different folders *before* loading them:
-  * files with the "nl" suffix get into "folder1" 
-  * files without the "nl"  suffix get into "folder2" (you're encouraged to use an even more meaningful names for the folders)
+
+* files with the "nl" suffix get into "folder1"
+* files without the "nl"  suffix get into "folder2" (you're encouraged to use an even more meaningful names for the folders)
   
 After that, create two separate ForEach loops, each with their own data flow.
 This removes the complexity of expressions inside precedence constraints.

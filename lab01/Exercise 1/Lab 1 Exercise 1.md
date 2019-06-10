@@ -9,7 +9,7 @@ In lab 1, you will create a first SSIS package. In this exercise, you will creat
 ### Create a new (empty) SSIS project
 
 1. Open *SQL Server Data Tools* (Visual Studio)
-2. Create a *new SSIS project*. Name it *"Lab01"*. Ensure that the location is inside the "c:\course\lab01\studentsolution"
+2. Create a *new SSIS project*. Name it *"Lab01"*. Ensure that the location is inside the "c:\Repos\ssis-training\lab01\studentsolution"
 3. *Delete* the package *"Package.dtsx"* that has been added automatically
 
 ### Create a Data Flow Task
@@ -19,7 +19,7 @@ In lab 1, you will create a first SSIS package. In this exercise, you will creat
 6. Inside "DFT load dimProductCategory", use the *Source assistant* to create a *new connection manager* with the following settings:
 
 * Server name: *localhost*
-* Authentication: *Windows Authentication*
+* Authentication: *Windows Authentication* (sometimes called *Windows NT Integrated Security*)
 * Database name: *AdventureWorks2016*
 
 7. Click *"Test Connection"* to verify that the connection settings you just entered are valid. Click "OK".
@@ -36,14 +36,11 @@ In order to fix this problem, we need to point the source towards a specific tab
 
 Now, the red cross disappears.
 
-12. Rename de OLE DB Source component to "OLE_SRC Production ProductCategory" 
-
+12. Rename de OLE DB Source component to "OLE_SRC Production ProductCategory"
 13. Use the *Destionation Assistant* to create a *new connection manager* with the following settings:
-
-  * Server name: *localhost*
-  * Authentication: *Windows Authentication*
-  * Database name: *AdventureWorksDW2016_Empty*
-
+    * Server name: *localhost*
+    * Authentication: *Windows Authentication*
+    * Database name: *AdventureWorksDW2016_Empty*
 14. Click "Test Connection" to verify that the connection settings you just entered are valid
 
 A new component has been added for you to the data flow canvas, labeled "OLE DB Destination".
@@ -55,20 +52,16 @@ Two things need to be done in order to get the settings right:
 * Provide details which table to use inside the database (the connection manager points to the database, but not specifically towards a table)
 
 15. In order to provide an input to the destination, *drag* the output from *"OLE_SRC Production ProductCategory"* towards *"OLE DB Destination"*. A blue arrow appears, pointing from "OLE_SRC Production ProductCategory" towards "OLE DB Destination".
-
 16. To enter the necessary details for the destination, open *"OLE DB Destination"*.
 A popup window opens, similar to the one shown below ![Destination editor](img/2_DataFlow_DestinationComponentEditor.png)
-Notice the exclamation mark on the bottom of the popup. It reads "Select a table or view from the list." 
-
+Notice the exclamation mark on the bottom of the popup. It reads "Select a table or view from the list."
 17. Open the *dropdown* under the text "Name of the table or the view:" and *select "[dbo].[Dim_ProductCategory]"*
 
 Notice the exclamation mark on the bottom on the window. Now it reads "Map the columns on the Mappings page."
 
 18. Open the Mappings page, mapping the columns as follows:
-
-* ProductCategoryID -> ProductCategoryAlternateKey
-* Name -> EnglishProductCategoryName
-
+    * ProductCategoryID -> ProductCategoryAlternateKey
+    * Name -> EnglishProductCategoryName
 19. Click "OK"  to close the window
 20. Rename "OLE DB Destination" to "OLE_DST Dim_ProductCategory"
 21. Save the package.
@@ -86,7 +79,8 @@ SELECT * FROM AdventureworksDW2016_empty.dbo.Dim_ProductCategory
 ```
 
 An empty table should be returned.
-25. Switch to Visual Studio, and execute your just-created package. 
+
+25. Switch to Visual Studio, and execute your just-created package.
 
 In order to do this, right-click on the package inside the Solution Explorer, and click "Execute Package"
 
@@ -94,8 +88,8 @@ In order to do this, right-click on the package inside the Solution Explorer, an
 
 ## Review and questions
 
-- Which columns are empty in Dim_ProductCategory? Why?
-- What would happen if we ran this package for a second time?
+* Which columns are empty in Dim_ProductCategory? Why?
+* What would happen if we ran this package for a second time?
 
 ## Next steps
 

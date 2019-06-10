@@ -74,6 +74,7 @@ SSDT shows the "Configure Error Output" window for you to check if all redirects
 19. Rename "OLE DB Destination" to "OLE_DST ErrFact"
 
 ## Test
+
 20. Run the package "Load Fact Reseller Sales.dtsx"
 21. Open SSMS, and select the rows inside `dbo.errfact_ResellerSalesErrors`. Can you see what goes wrong?
 
@@ -81,7 +82,7 @@ SSDT shows the "Configure Error Output" window for you to check if all redirects
 
 Apparently, the system who delivered our source data was misconfigured. The source system administrators promised to fix it.
 
-* If you're running out of time, well be glad: the data has just arrived! Just re-configure the parameter so that the source folder "C:\course\lab06\exports" is replaced by "C:\course\lab06\export2".
+* If you're running out of time, well be glad: the data has just arrived! Just re-configure the parameter so that the source folder "c:\Repos\ssis-training\lab06\exports" is replaced by "c:\Repos\ssis-training\lab06\export2".
 * If you need some extra challenge, here it is: the data hasn't arrived yet, but the data is needed ASAP. Luckily, the adminstrators pointed out that you can find out which file is different by looking at the suffix "nl". Here's your challenge:
   * Add a second data flow which handles the "_nl" files correctly
   * Configure the precedence constraints with expressions, so that:

@@ -86,7 +86,6 @@ This is unwanted behaviour: we provide a path inside the package parameter, so t
 22. Switch to the "Collection" page
 23. Try to figure out how to set the Folder property using an expression (where the expression is the parameter value).
 
-
 ## Bonus: Use fully qualified path
 
 In the ForEach Loop editor, you configured to retrieve only the *name and extension* from the file.

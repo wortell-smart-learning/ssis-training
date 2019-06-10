@@ -33,7 +33,7 @@ To make clear where the file is moving, we will add a variable with the destinat
 5. Add a variable called "ErrorFolder"
    * Data type: string
    * Value: c:\Repos\ssis-training\lab06\exports\error
-6. Provide the variable with an expression
+6. Define the value of the variable using an expression
 5. Enlarge "FEL ResellerSales exports" somewhat by dragging the bottom corner down
 6. Add a File System Task inside the FEL container
 7. Configure the File System Task, so it will copy the file that's currently being processed the error folder.

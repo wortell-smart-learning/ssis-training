@@ -21,7 +21,7 @@ Then, load the fact. Lookup dimension keys via the Lookup transformation.
 
 Each table should get a separate Data Flow Task.
 
-Sources are provided for in the following views:
+The technical team has already created views for the fact and dimension tables you need to populate. The fact table will be an aggregated Internet Sales table, for all sales done via Internet. The dimension tables give some axes to split out the measures contained in the fact table. Sources are provided for in the following views:
 
 * dbo.factAgg_InternetSales
 * dbo.dim_ProductCategory

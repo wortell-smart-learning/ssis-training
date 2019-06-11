@@ -1,10 +1,12 @@
 # Lab 7 Exercise 1
 
 ## Description
+
 Inside lab 6, we explored how to do error handling inside SSIS.
 In this lab, we'll explore how to debug using the IDE.
 
 ### Preparation
+
 1. Open the solution "Lab 7 Exercise 1" from the "start" folder.
 2. Open the package "LoadFactData.dtsx"
 3. Execute the package
@@ -43,6 +45,7 @@ Although a lot of them are for general (Visual Studio) debugging purposes, espec
 ![locals](img/03_locals.png)
 
 Notice there's lots of interesting runtime information here:
+
 * The current value of the user counter
 * The current value of the filepath we try to read
 * The container start time (we used that in the previous lab to determine the file path)
@@ -70,6 +73,7 @@ We could of course build some logic to avoid this error, but for now we'll take 
 This time, it will fail at iteration 5. However, this file is available - so the error must be within the file!
 
 ### Debug the Data Flow using Data Viewers
+
 17. Disable the breakpoint 
 18. Open "DFT Load Reseller Sales from CSV"
 19. Execute the package again. We can see the package breaks at the Data Conversion.

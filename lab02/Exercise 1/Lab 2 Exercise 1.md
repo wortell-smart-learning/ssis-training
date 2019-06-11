@@ -87,3 +87,7 @@ Notice the red cross besides "Lookup Match Output"
 ## Test
 
 28. Re-run the package and validate the outcome using SQL Server Management Studio
+
+## Next steps
+
+This is the end of lab 02. [Lab 03](../lab03/Lab%203%20-%20challenge%20day%201.md) is the challenge for this day!

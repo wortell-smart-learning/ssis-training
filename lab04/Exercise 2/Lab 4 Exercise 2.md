@@ -105,3 +105,4 @@ The expression should read `$Package::CsvFolder + User::CSVFileName`
 
 27. Try running the package and inspect the outcome inside SSMS.
 28. Try to alter the variable value manually to `2014-02` and validate the results in SSMS. See if different data is loaded indeed.
+

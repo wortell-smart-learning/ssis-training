@@ -1,5 +1,7 @@
 cd c:\repos\ssis-training\backups
 
+del AdventureWorksDW2016_empty.bak
+
 git pull
 
 (sqlcmd -S . -Q "ALTER DATABASE [AdventureworksDW2016_empty] SET SINGLE_USER WITH ROLLBACK IMMEDIATE

@@ -1,0 +1,506 @@
+<Products>
+    <Product ProductID="1" Name="Adjustable Race" ProductNumber="AR-5381" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="2" Name="Bearing Ball" ProductNumber="BA-8327" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="3" Name="BB Ball Bearing" ProductNumber="BE-2349" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="4" Name="Headset Ball Bearings" ProductNumber="BE-2908" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="316" Name="Blade" ProductNumber="BL-2036" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="317" Name="LL Crankarm" ProductNumber="CA-5965" Color="Black" ListPrice="0.0000" StandardCost="0.0000" Class="L " />
+    <Product ProductID="318" Name="ML Crankarm" ProductNumber="CA-6738" Color="Black" ListPrice="0.0000" StandardCost="0.0000" Class="M " />
+    <Product ProductID="319" Name="HL Crankarm" ProductNumber="CA-7457" Color="Black" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="320" Name="Chainring Bolts" ProductNumber="CB-2903" Color="Silver" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="321" Name="Chainring Nut" ProductNumber="CN-6137" Color="Silver" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="322" Name="Chainring" ProductNumber="CR-7833" Color="Black" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="323" Name="Crown Race" ProductNumber="CR-9981" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="324" Name="Chain Stays" ProductNumber="CS-2812" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="325" Name="Decal 1" ProductNumber="DC-8732" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="326" Name="Decal 2" ProductNumber="DC-9824" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="327" Name="Down Tube" ProductNumber="DT-2377" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="328" Name="Mountain End Caps" ProductNumber="EC-M092" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="329" Name="Road End Caps" ProductNumber="EC-R098" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="330" Name="Touring End Caps" ProductNumber="EC-T209" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="331" Name="Fork End" ProductNumber="FE-3760" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="332" Name="Freewheel" ProductNumber="FH-2981" Color="Silver" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="341" Name="Flat Washer 1" ProductNumber="FW-1000" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="342" Name="Flat Washer 6" ProductNumber="FW-1200" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="343" Name="Flat Washer 2" ProductNumber="FW-1400" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="344" Name="Flat Washer 9" ProductNumber="FW-3400" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="345" Name="Flat Washer 4" ProductNumber="FW-3800" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="346" Name="Flat Washer 3" ProductNumber="FW-5160" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="347" Name="Flat Washer 8" ProductNumber="FW-5800" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="348" Name="Flat Washer 5" ProductNumber="FW-7160" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="349" Name="Flat Washer 7" ProductNumber="FW-9160" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="350" Name="Fork Crown" ProductNumber="FC-3654" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="351" Name="Front Derailleur Cage" ProductNumber="FC-3982" Color="Silver" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="352" Name="Front Derailleur Linkage" ProductNumber="FL-2301" Color="Silver" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="355" Name="Guide Pulley" ProductNumber="GP-0982" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="356" Name="LL Grip Tape" ProductNumber="GT-0820" ListPrice="0.0000" StandardCost="0.0000" Class="L " />
+    <Product ProductID="357" Name="ML Grip Tape" ProductNumber="GT-1209" ListPrice="0.0000" StandardCost="0.0000" Class="M " />
+    <Product ProductID="358" Name="HL Grip Tape" ProductNumber="GT-2908" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="359" Name="Thin-Jam Hex Nut 9" ProductNumber="HJ-1213" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="360" Name="Thin-Jam Hex Nut 10" ProductNumber="HJ-1220" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="361" Name="Thin-Jam Hex Nut 1" ProductNumber="HJ-1420" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="362" Name="Thin-Jam Hex Nut 2" ProductNumber="HJ-1428" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="363" Name="Thin-Jam Hex Nut 15" ProductNumber="HJ-3410" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="364" Name="Thin-Jam Hex Nut 16" ProductNumber="HJ-3416" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="365" Name="Thin-Jam Hex Nut 5" ProductNumber="HJ-3816" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="366" Name="Thin-Jam Hex Nut 6" ProductNumber="HJ-3824" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="367" Name="Thin-Jam Hex Nut 3" ProductNumber="HJ-5161" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="368" Name="Thin-Jam Hex Nut 4" ProductNumber="HJ-5162" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="369" Name="Thin-Jam Hex Nut 13" ProductNumber="HJ-5811" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="370" Name="Thin-Jam Hex Nut 14" ProductNumber="HJ-5818" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="371" Name="Thin-Jam Hex Nut 7" ProductNumber="HJ-7161" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="372" Name="Thin-Jam Hex Nut 8" ProductNumber="HJ-7162" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="373" Name="Thin-Jam Hex Nut 12" ProductNumber="HJ-9080" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="374" Name="Thin-Jam Hex Nut 11" ProductNumber="HJ-9161" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="375" Name="Hex Nut 5" ProductNumber="HN-1024" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="376" Name="Hex Nut 6" ProductNumber="HN-1032" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="377" Name="Hex Nut 16" ProductNumber="HN-1213" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="378" Name="Hex Nut 17" ProductNumber="HN-1220" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="379" Name="Hex Nut 7" ProductNumber="HN-1224" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="380" Name="Hex Nut 8" ProductNumber="HN-1420" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="381" Name="Hex Nut 9" ProductNumber="HN-1428" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="382" Name="Hex Nut 22" ProductNumber="HN-3410" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="383" Name="Hex Nut 23" ProductNumber="HN-3416" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="384" Name="Hex Nut 12" ProductNumber="HN-3816" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="385" Name="Hex Nut 13" ProductNumber="HN-3824" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="386" Name="Hex Nut 1" ProductNumber="HN-4402" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="387" Name="Hex Nut 10" ProductNumber="HN-5161" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="388" Name="Hex Nut 11" ProductNumber="HN-5162" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="389" Name="Hex Nut 2" ProductNumber="HN-5400" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="390" Name="Hex Nut 20" ProductNumber="HN-5811" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="391" Name="Hex Nut 21" ProductNumber="HN-5818" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="392" Name="Hex Nut 3" ProductNumber="HN-6320" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="393" Name="Hex Nut 14" ProductNumber="HN-7161" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="394" Name="Hex Nut 15" ProductNumber="HN-7162" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="395" Name="Hex Nut 4" ProductNumber="HN-8320" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="396" Name="Hex Nut 18" ProductNumber="HN-9161" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="397" Name="Hex Nut 19" ProductNumber="HN-9168" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="398" Name="Handlebar Tube" ProductNumber="HT-2981" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="399" Name="Head Tube" ProductNumber="HT-8019" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="400" Name="LL Hub" ProductNumber="HU-6280" ListPrice="0.0000" StandardCost="0.0000" Class="L " />
+    <Product ProductID="401" Name="HL Hub" ProductNumber="HU-8998" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="402" Name="Keyed Washer" ProductNumber="KW-4091" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="403" Name="External Lock Washer 3" ProductNumber="LE-1000" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="404" Name="External Lock Washer 4" ProductNumber="LE-1200" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="405" Name="External Lock Washer 9" ProductNumber="LE-1201" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="406" Name="External Lock Washer 5" ProductNumber="LE-1400" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="407" Name="External Lock Washer 7" ProductNumber="LE-3800" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="408" Name="External Lock Washer 6" ProductNumber="LE-5160" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="409" Name="External Lock Washer 1" ProductNumber="LE-6000" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="410" Name="External Lock Washer 8" ProductNumber="LE-7160" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="411" Name="External Lock Washer 2" ProductNumber="LE-8000" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="412" Name="Internal Lock Washer 3" ProductNumber="LI-1000" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="413" Name="Internal Lock Washer 4" ProductNumber="LI-1200" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="414" Name="Internal Lock Washer 9" ProductNumber="LI-1201" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="415" Name="Internal Lock Washer 5" ProductNumber="LI-1400" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="416" Name="Internal Lock Washer 7" ProductNumber="LI-3800" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="417" Name="Internal Lock Washer 6" ProductNumber="LI-5160" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="418" Name="Internal Lock Washer 10" ProductNumber="LI-5800" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="419" Name="Internal Lock Washer 1" ProductNumber="LI-6000" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="420" Name="Internal Lock Washer 8" ProductNumber="LI-7160" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="421" Name="Internal Lock Washer 2" ProductNumber="LI-8000" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="422" Name="Thin-Jam Lock Nut 9" ProductNumber="LJ-1213" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="423" Name="Thin-Jam Lock Nut 10" ProductNumber="LJ-1220" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="424" Name="Thin-Jam Lock Nut 1" ProductNumber="LJ-1420" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="425" Name="Thin-Jam Lock Nut 2" ProductNumber="LJ-1428" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="426" Name="Thin-Jam Lock Nut 15" ProductNumber="LJ-3410" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="427" Name="Thin-Jam Lock Nut 16" ProductNumber="LJ-3416" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="428" Name="Thin-Jam Lock Nut 5" ProductNumber="LJ-3816" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="429" Name="Thin-Jam Lock Nut 6" ProductNumber="LJ-3824" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="430" Name="Thin-Jam Lock Nut 3" ProductNumber="LJ-5161" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="431" Name="Thin-Jam Lock Nut 4" ProductNumber="LJ-5162" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="432" Name="Thin-Jam Lock Nut 13" ProductNumber="LJ-5811" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="433" Name="Thin-Jam Lock Nut 14" ProductNumber="LJ-5818" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="434" Name="Thin-Jam Lock Nut 7" ProductNumber="LJ-7161" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="435" Name="Thin-Jam Lock Nut 8" ProductNumber="LJ-7162" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="436" Name="Thin-Jam Lock Nut 12" ProductNumber="LJ-9080" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="437" Name="Thin-Jam Lock Nut 11" ProductNumber="LJ-9161" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="438" Name="Lock Nut 5" ProductNumber="LN-1024" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="439" Name="Lock Nut 6" ProductNumber="LN-1032" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="440" Name="Lock Nut 16" ProductNumber="LN-1213" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="441" Name="Lock Nut 17" ProductNumber="LN-1220" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="442" Name="Lock Nut 7" ProductNumber="LN-1224" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="443" Name="Lock Nut 8" ProductNumber="LN-1420" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="444" Name="Lock Nut 9" ProductNumber="LN-1428" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="445" Name="Lock Nut 22" ProductNumber="LN-3410" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="446" Name="Lock Nut 23" ProductNumber="LN-3416" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="447" Name="Lock Nut 12" ProductNumber="LN-3816" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="448" Name="Lock Nut 13" ProductNumber="LN-3824" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="449" Name="Lock Nut 1" ProductNumber="LN-4400" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="450" Name="Lock Nut 10" ProductNumber="LN-5161" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="451" Name="Lock Nut 11" ProductNumber="LN-5162" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="452" Name="Lock Nut 2" ProductNumber="LN-5400" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="453" Name="Lock Nut 20" ProductNumber="LN-5811" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="454" Name="Lock Nut 21" ProductNumber="LN-5818" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="455" Name="Lock Nut 3" ProductNumber="LN-6320" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="456" Name="Lock Nut 14" ProductNumber="LN-7161" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="457" Name="Lock Nut 15" ProductNumber="LN-7162" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="458" Name="Lock Nut 4" ProductNumber="LN-8320" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="459" Name="Lock Nut 19" ProductNumber="LN-9080" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="460" Name="Lock Nut 18" ProductNumber="LN-9161" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="461" Name="Lock Ring" ProductNumber="LR-2398" Color="Silver" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="462" Name="Lower Head Race" ProductNumber="LR-8520" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="463" Name="Lock Washer 4" ProductNumber="LW-1000" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="464" Name="Lock Washer 5" ProductNumber="LW-1200" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="465" Name="Lock Washer 10" ProductNumber="LW-1201" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="466" Name="Lock Washer 6" ProductNumber="LW-1400" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="467" Name="Lock Washer 13" ProductNumber="LW-3400" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="468" Name="Lock Washer 8" ProductNumber="LW-3800" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="469" Name="Lock Washer 1" ProductNumber="LW-4000" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="470" Name="Lock Washer 7" ProductNumber="LW-5160" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="471" Name="Lock Washer 12" ProductNumber="LW-5800" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="472" Name="Lock Washer 2" ProductNumber="LW-6000" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="473" Name="Lock Washer 9" ProductNumber="LW-7160" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="474" Name="Lock Washer 3" ProductNumber="LW-8000" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="475" Name="Lock Washer 11" ProductNumber="LW-9160" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="476" Name="Metal Angle" ProductNumber="MA-7075" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="477" Name="Metal Bar 1" ProductNumber="MB-2024" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="478" Name="Metal Bar 2" ProductNumber="MB-6061" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="479" Name="Metal Plate 2" ProductNumber="MP-2066" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="480" Name="Metal Plate 1" ProductNumber="MP-2503" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="481" Name="Metal Plate 3" ProductNumber="MP-4960" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="482" Name="Metal Sheet 2" ProductNumber="MS-0253" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="483" Name="Metal Sheet 3" ProductNumber="MS-1256" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="484" Name="Metal Sheet 7" ProductNumber="MS-1981" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="485" Name="Metal Sheet 4" ProductNumber="MS-2259" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="486" Name="Metal Sheet 5" ProductNumber="MS-2341" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="487" Name="Metal Sheet 6" ProductNumber="MS-2348" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="488" Name="Metal Sheet 1" ProductNumber="MS-6061" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="489" Name="Metal Tread Plate" ProductNumber="MT-1000" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="490" Name="LL Nipple" ProductNumber="NI-4127" ListPrice="0.0000" StandardCost="0.0000" Class="L " />
+    <Product ProductID="491" Name="HL Nipple" ProductNumber="NI-9522" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="492" Name="Paint - Black" ProductNumber="PA-187B" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="493" Name="Paint - Red" ProductNumber="PA-361R" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="494" Name="Paint - Silver" ProductNumber="PA-529S" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="495" Name="Paint - Blue" ProductNumber="PA-632U" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="496" Name="Paint - Yellow" ProductNumber="PA-823Y" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="497" Name="Pinch Bolt" ProductNumber="PB-6109" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="504" Name="Cup-Shaped Race" ProductNumber="RA-2345" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="505" Name="Cone-Shaped Race" ProductNumber="RA-7490" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="506" Name="Reflector" ProductNumber="RF-9198" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="507" Name="LL Mountain Rim" ProductNumber="RM-M464" ListPrice="0.0000" StandardCost="0.0000" Weight="435.00" WeightUnitMeasureCode="G  " Class="L " />
+    <Product ProductID="508" Name="ML Mountain Rim" ProductNumber="RM-M692" ListPrice="0.0000" StandardCost="0.0000" Weight="450.00" WeightUnitMeasureCode="G  " Class="M " />
+    <Product ProductID="509" Name="HL Mountain Rim" ProductNumber="RM-M823" ListPrice="0.0000" StandardCost="0.0000" Weight="400.00" WeightUnitMeasureCode="G  " />
+    <Product ProductID="510" Name="LL Road Rim" ProductNumber="RM-R436" ListPrice="0.0000" StandardCost="0.0000" Weight="445.00" WeightUnitMeasureCode="G  " Class="L " />
+    <Product ProductID="511" Name="ML Road Rim" ProductNumber="RM-R600" ListPrice="0.0000" StandardCost="0.0000" Weight="450.00" WeightUnitMeasureCode="G  " Class="M " />
+    <Product ProductID="512" Name="HL Road Rim" ProductNumber="RM-R800" ListPrice="0.0000" StandardCost="0.0000" Weight="400.00" WeightUnitMeasureCode="G  " />
+    <Product ProductID="513" Name="Touring Rim" ProductNumber="RM-T801" ListPrice="0.0000" StandardCost="0.0000" Weight="460.00" WeightUnitMeasureCode="G  " />
+    <Product ProductID="514" Name="LL Mountain Seat Assembly" ProductNumber="SA-M198" ListPrice="133.3400" StandardCost="98.7700" Class="L " />
+    <Product ProductID="515" Name="ML Mountain Seat Assembly" ProductNumber="SA-M237" ListPrice="147.1400" StandardCost="108.9900" Class="M " />
+    <Product ProductID="516" Name="HL Mountain Seat Assembly" ProductNumber="SA-M687" ListPrice="196.9200" StandardCost="145.8700" />
+    <Product ProductID="517" Name="LL Road Seat Assembly" ProductNumber="SA-R127" ListPrice="133.3400" StandardCost="98.7700" Class="L " />
+    <Product ProductID="518" Name="ML Road Seat Assembly" ProductNumber="SA-R430" ListPrice="147.1400" StandardCost="108.9900" Class="M " />
+    <Product ProductID="519" Name="HL Road Seat Assembly" ProductNumber="SA-R522" ListPrice="196.9200" StandardCost="145.8700" />
+    <Product ProductID="520" Name="LL Touring Seat Assembly" ProductNumber="SA-T467" ListPrice="133.3400" StandardCost="98.7700" Class="L " />
+    <Product ProductID="521" Name="ML Touring Seat Assembly" ProductNumber="SA-T612" ListPrice="147.1400" StandardCost="108.9900" Class="M " />
+    <Product ProductID="522" Name="HL Touring Seat Assembly" ProductNumber="SA-T872" ListPrice="196.9200" StandardCost="145.8700" />
+    <Product ProductID="523" Name="LL Spindle/Axle" ProductNumber="SD-2342" ListPrice="0.0000" StandardCost="0.0000" Class="L " />
+    <Product ProductID="524" Name="HL Spindle/Axle" ProductNumber="SD-9872" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="525" Name="LL Shell" ProductNumber="SH-4562" ListPrice="0.0000" StandardCost="0.0000" Class="L " />
+    <Product ProductID="526" Name="HL Shell" ProductNumber="SH-9312" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="527" Name="Spokes" ProductNumber="SK-9283" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="528" Name="Seat Lug" ProductNumber="SL-0931" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="529" Name="Stem" ProductNumber="SM-9087" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="530" Name="Seat Post" ProductNumber="SP-2981" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="531" Name="Steerer" ProductNumber="SR-2098" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="532" Name="Seat Stays" ProductNumber="SS-2985" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="533" Name="Seat Tube" ProductNumber="ST-9828" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="534" Name="Top Tube" ProductNumber="TO-2301" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="535" Name="Tension Pulley" ProductNumber="TP-0923" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="679" Name="Rear Derailleur Cage" ProductNumber="RC-0291" Color="Silver" ListPrice="0.0000" StandardCost="0.0000" />
+    <Product ProductID="680" Name="HL Road Frame - Black, 58" ProductNumber="FR-R92B-58" Color="Black" Size="58" SizeUnitMeasureCode="CM " ListPrice="1431.5000" StandardCost="1059.3100" Weight="2.24" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="706" Name="HL Road Frame - Red, 58" ProductNumber="FR-R92R-58" Color="Red" Size="58" SizeUnitMeasureCode="CM " ListPrice="1431.5000" StandardCost="1059.3100" Weight="2.24" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="707" Name="Sport-100 Helmet, Red" ProductNumber="HL-U509-R" Color="Red" ListPrice="34.9900" StandardCost="13.0863" ProductSubcategoryID="31" />
+    <Product ProductID="708" Name="Sport-100 Helmet, Black" ProductNumber="HL-U509" Color="Black" ListPrice="34.9900" StandardCost="13.0863" ProductSubcategoryID="31" />
+    <Product ProductID="709" Name="Mountain Bike Socks, M" ProductNumber="SO-B909-M" Color="White" Size="M" ListPrice="9.5000" StandardCost="3.3963" Style="U " ProductSubcategoryID="23" />
+    <Product ProductID="710" Name="Mountain Bike Socks, L" ProductNumber="SO-B909-L" Color="White" Size="L" ListPrice="9.5000" StandardCost="3.3963" Style="U " ProductSubcategoryID="23" />
+    <Product ProductID="711" Name="Sport-100 Helmet, Blue" ProductNumber="HL-U509-B" Color="Blue" ListPrice="34.9900" StandardCost="13.0863" ProductSubcategoryID="31" />
+    <Product ProductID="712" Name="AWC Logo Cap" ProductNumber="CA-1098" Color="Multi" ListPrice="8.9900" StandardCost="6.9223" Style="U " ProductSubcategoryID="19" />
+    <Product ProductID="713" Name="Long-Sleeve Logo Jersey, S" ProductNumber="LJ-0192-S" Color="Multi" Size="S" ListPrice="49.9900" StandardCost="38.4923" Style="U " ProductSubcategoryID="21" />
+    <Product ProductID="714" Name="Long-Sleeve Logo Jersey, M" ProductNumber="LJ-0192-M" Color="Multi" Size="M" ListPrice="49.9900" StandardCost="38.4923" Style="U " ProductSubcategoryID="21" />
+    <Product ProductID="715" Name="Long-Sleeve Logo Jersey, L" ProductNumber="LJ-0192-L" Color="Multi" Size="L" ListPrice="49.9900" StandardCost="38.4923" Style="U " ProductSubcategoryID="21" />
+    <Product ProductID="716" Name="Long-Sleeve Logo Jersey, XL" ProductNumber="LJ-0192-X" Color="Multi" Size="XL" ListPrice="49.9900" StandardCost="38.4923" Style="U " ProductSubcategoryID="21" />
+    <Product ProductID="717" Name="HL Road Frame - Red, 62" ProductNumber="FR-R92R-62" Color="Red" Size="62" SizeUnitMeasureCode="CM " ListPrice="1431.5000" StandardCost="868.6342" Weight="2.30" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="718" Name="HL Road Frame - Red, 44" ProductNumber="FR-R92R-44" Color="Red" Size="44" SizeUnitMeasureCode="CM " ListPrice="1431.5000" StandardCost="868.6342" Weight="2.12" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="719" Name="HL Road Frame - Red, 48" ProductNumber="FR-R92R-48" Color="Red" Size="48" SizeUnitMeasureCode="CM " ListPrice="1431.5000" StandardCost="868.6342" Weight="2.16" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="720" Name="HL Road Frame - Red, 52" ProductNumber="FR-R92R-52" Color="Red" Size="52" SizeUnitMeasureCode="CM " ListPrice="1431.5000" StandardCost="868.6342" Weight="2.20" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="721" Name="HL Road Frame - Red, 56" ProductNumber="FR-R92R-56" Color="Red" Size="56" SizeUnitMeasureCode="CM " ListPrice="1431.5000" StandardCost="868.6342" Weight="2.24" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="722" Name="LL Road Frame - Black, 58" ProductNumber="FR-R38B-58" Color="Black" Size="58" SizeUnitMeasureCode="CM " ListPrice="337.2200" StandardCost="204.6251" Weight="2.46" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="723" Name="LL Road Frame - Black, 60" ProductNumber="FR-R38B-60" Color="Black" Size="60" SizeUnitMeasureCode="CM " ListPrice="337.2200" StandardCost="204.6251" Weight="2.48" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="724" Name="LL Road Frame - Black, 62" ProductNumber="FR-R38B-62" Color="Black" Size="62" SizeUnitMeasureCode="CM " ListPrice="337.2200" StandardCost="204.6251" Weight="2.50" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="725" Name="LL Road Frame - Red, 44" ProductNumber="FR-R38R-44" Color="Red" Size="44" SizeUnitMeasureCode="CM " ListPrice="337.2200" StandardCost="187.1571" Weight="2.32" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="726" Name="LL Road Frame - Red, 48" ProductNumber="FR-R38R-48" Color="Red" Size="48" SizeUnitMeasureCode="CM " ListPrice="337.2200" StandardCost="187.1571" Weight="2.36" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="727" Name="LL Road Frame - Red, 52" ProductNumber="FR-R38R-52" Color="Red" Size="52" SizeUnitMeasureCode="CM " ListPrice="337.2200" StandardCost="187.1571" Weight="2.40" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="728" Name="LL Road Frame - Red, 58" ProductNumber="FR-R38R-58" Color="Red" Size="58" SizeUnitMeasureCode="CM " ListPrice="337.2200" StandardCost="187.1571" Weight="2.46" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="729" Name="LL Road Frame - Red, 60" ProductNumber="FR-R38R-60" Color="Red" Size="60" SizeUnitMeasureCode="CM " ListPrice="337.2200" StandardCost="187.1571" Weight="2.48" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="730" Name="LL Road Frame - Red, 62" ProductNumber="FR-R38R-62" Color="Red" Size="62" SizeUnitMeasureCode="CM " ListPrice="337.2200" StandardCost="187.1571" Weight="2.50" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="731" Name="ML Road Frame - Red, 44" ProductNumber="FR-R72R-44" Color="Red" Size="44" SizeUnitMeasureCode="CM " ListPrice="594.8300" StandardCost="352.1394" Weight="2.22" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="732" Name="ML Road Frame - Red, 48" ProductNumber="FR-R72R-48" Color="Red" Size="48" SizeUnitMeasureCode="CM " ListPrice="594.8300" StandardCost="352.1394" Weight="2.26" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="733" Name="ML Road Frame - Red, 52" ProductNumber="FR-R72R-52" Color="Red" Size="52" SizeUnitMeasureCode="CM " ListPrice="594.8300" StandardCost="352.1394" Weight="2.30" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="734" Name="ML Road Frame - Red, 58" ProductNumber="FR-R72R-58" Color="Red" Size="58" SizeUnitMeasureCode="CM " ListPrice="594.8300" StandardCost="352.1394" Weight="2.36" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="735" Name="ML Road Frame - Red, 60" ProductNumber="FR-R72R-60" Color="Red" Size="60" SizeUnitMeasureCode="CM " ListPrice="594.8300" StandardCost="352.1394" Weight="2.38" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="736" Name="LL Road Frame - Black, 44" ProductNumber="FR-R38B-44" Color="Black" Size="44" SizeUnitMeasureCode="CM " ListPrice="337.2200" StandardCost="204.6251" Weight="2.32" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="737" Name="LL Road Frame - Black, 48" ProductNumber="FR-R38B-48" Color="Black" Size="48" SizeUnitMeasureCode="CM " ListPrice="337.2200" StandardCost="204.6251" Weight="2.36" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="738" Name="LL Road Frame - Black, 52" ProductNumber="FR-R38B-52" Color="Black" Size="52" SizeUnitMeasureCode="CM " ListPrice="337.2200" StandardCost="204.6251" Weight="2.40" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="739" Name="HL Mountain Frame - Silver, 42" ProductNumber="FR-M94S-42" Color="Silver" Size="42" SizeUnitMeasureCode="CM " ListPrice="1364.5000" StandardCost="747.2002" Weight="2.72" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="740" Name="HL Mountain Frame - Silver, 44" ProductNumber="FR-M94S-44" Color="Silver" Size="44" SizeUnitMeasureCode="CM " ListPrice="1364.5000" StandardCost="706.8110" Weight="2.76" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="741" Name="HL Mountain Frame - Silver, 48" ProductNumber="FR-M94S-52" Color="Silver" Size="48" SizeUnitMeasureCode="CM " ListPrice="1364.5000" StandardCost="706.8110" Weight="2.80" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="742" Name="HL Mountain Frame - Silver, 46" ProductNumber="FR-M94S-46" Color="Silver" Size="46" SizeUnitMeasureCode="CM " ListPrice="1364.5000" StandardCost="747.2002" Weight="2.84" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="743" Name="HL Mountain Frame - Black, 42" ProductNumber="FR-M94B-42" Color="Black" Size="42" SizeUnitMeasureCode="CM " ListPrice="1349.6000" StandardCost="739.0410" Weight="2.72" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="744" Name="HL Mountain Frame - Black, 44" ProductNumber="FR-M94B-44" Color="Black" Size="44" SizeUnitMeasureCode="CM " ListPrice="1349.6000" StandardCost="699.0928" Weight="2.76" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="745" Name="HL Mountain Frame - Black, 48" ProductNumber="FR-M94B-48" Color="Black" Size="48" SizeUnitMeasureCode="CM " ListPrice="1349.6000" StandardCost="699.0928" Weight="2.80" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="746" Name="HL Mountain Frame - Black, 46" ProductNumber="FR-M94B-46" Color="Black" Size="46" SizeUnitMeasureCode="CM " ListPrice="1349.6000" StandardCost="739.0410" Weight="2.84" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="747" Name="HL Mountain Frame - Black, 38" ProductNumber="FR-M94B-38" Color="Black" Size="38" SizeUnitMeasureCode="CM " ListPrice="1349.6000" StandardCost="739.0410" Weight="2.68" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="748" Name="HL Mountain Frame - Silver, 38" ProductNumber="FR-M94S-38" Color="Silver" Size="38" SizeUnitMeasureCode="CM " ListPrice="1364.5000" StandardCost="747.2002" Weight="2.68" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="749" Name="Road-150 Red, 62" ProductNumber="BK-R93R-62" Color="Red" Size="62" SizeUnitMeasureCode="CM " ListPrice="3578.2700" StandardCost="2171.2942" Weight="15.00" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="750" Name="Road-150 Red, 44" ProductNumber="BK-R93R-44" Color="Red" Size="44" SizeUnitMeasureCode="CM " ListPrice="3578.2700" StandardCost="2171.2942" Weight="13.77" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="751" Name="Road-150 Red, 48" ProductNumber="BK-R93R-48" Color="Red" Size="48" SizeUnitMeasureCode="CM " ListPrice="3578.2700" StandardCost="2171.2942" Weight="14.13" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="752" Name="Road-150 Red, 52" ProductNumber="BK-R93R-52" Color="Red" Size="52" SizeUnitMeasureCode="CM " ListPrice="3578.2700" StandardCost="2171.2942" Weight="14.42" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="753" Name="Road-150 Red, 56" ProductNumber="BK-R93R-56" Color="Red" Size="56" SizeUnitMeasureCode="CM " ListPrice="3578.2700" StandardCost="2171.2942" Weight="14.68" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="754" Name="Road-450 Red, 58" ProductNumber="BK-R68R-58" Color="Red" Size="58" SizeUnitMeasureCode="CM " ListPrice="1457.9900" StandardCost="884.7083" Weight="17.79" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="755" Name="Road-450 Red, 60" ProductNumber="BK-R68R-60" Color="Red" Size="60" SizeUnitMeasureCode="CM " ListPrice="1457.9900" StandardCost="884.7083" Weight="17.90" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="756" Name="Road-450 Red, 44" ProductNumber="BK-R68R-44" Color="Red" Size="44" SizeUnitMeasureCode="CM " ListPrice="1457.9900" StandardCost="884.7083" Weight="16.77" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="757" Name="Road-450 Red, 48" ProductNumber="BK-R68R-48" Color="Red" Size="48" SizeUnitMeasureCode="CM " ListPrice="1457.9900" StandardCost="884.7083" Weight="17.13" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="758" Name="Road-450 Red, 52" ProductNumber="BK-R68R-52" Color="Red" Size="52" SizeUnitMeasureCode="CM " ListPrice="1457.9900" StandardCost="884.7083" Weight="17.42" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="759" Name="Road-650 Red, 58" ProductNumber="BK-R50R-58" Color="Red" Size="58" SizeUnitMeasureCode="CM " ListPrice="782.9900" StandardCost="486.7066" Weight="19.79" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="760" Name="Road-650 Red, 60" ProductNumber="BK-R50R-60" Color="Red" Size="60" SizeUnitMeasureCode="CM " ListPrice="782.9900" StandardCost="486.7066" Weight="19.90" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="761" Name="Road-650 Red, 62" ProductNumber="BK-R50R-62" Color="Red" Size="62" SizeUnitMeasureCode="CM " ListPrice="782.9900" StandardCost="486.7066" Weight="20.00" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="762" Name="Road-650 Red, 44" ProductNumber="BK-R50R-44" Color="Red" Size="44" SizeUnitMeasureCode="CM " ListPrice="782.9900" StandardCost="486.7066" Weight="18.77" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="763" Name="Road-650 Red, 48" ProductNumber="BK-R50R-48" Color="Red" Size="48" SizeUnitMeasureCode="CM " ListPrice="782.9900" StandardCost="486.7066" Weight="19.13" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="764" Name="Road-650 Red, 52" ProductNumber="BK-R50R-52" Color="Red" Size="52" SizeUnitMeasureCode="CM " ListPrice="782.9900" StandardCost="486.7066" Weight="19.42" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="765" Name="Road-650 Black, 58" ProductNumber="BK-R50B-58" Color="Black" Size="58" SizeUnitMeasureCode="CM " ListPrice="782.9900" StandardCost="486.7066" Weight="19.79" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="766" Name="Road-650 Black, 60" ProductNumber="BK-R50B-60" Color="Black" Size="60" SizeUnitMeasureCode="CM " ListPrice="782.9900" StandardCost="486.7066" Weight="19.90" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="767" Name="Road-650 Black, 62" ProductNumber="BK-R50B-62" Color="Black" Size="62" SizeUnitMeasureCode="CM " ListPrice="782.9900" StandardCost="486.7066" Weight="20.00" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="768" Name="Road-650 Black, 44" ProductNumber="BK-R50B-44" Color="Black" Size="44" SizeUnitMeasureCode="CM " ListPrice="782.9900" StandardCost="486.7066" Weight="18.77" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="769" Name="Road-650 Black, 48" ProductNumber="BK-R50B-48" Color="Black" Size="48" SizeUnitMeasureCode="CM " ListPrice="782.9900" StandardCost="486.7066" Weight="19.13" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="770" Name="Road-650 Black, 52" ProductNumber="BK-R50B-52" Color="Black" Size="52" SizeUnitMeasureCode="CM " ListPrice="782.9900" StandardCost="486.7066" Weight="19.42" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="771" Name="Mountain-100 Silver, 38" ProductNumber="BK-M82S-38" Color="Silver" Size="38" SizeUnitMeasureCode="CM " ListPrice="3399.9900" StandardCost="1912.1544" Weight="20.35" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="772" Name="Mountain-100 Silver, 42" ProductNumber="BK-M82S-42" Color="Silver" Size="42" SizeUnitMeasureCode="CM " ListPrice="3399.9900" StandardCost="1912.1544" Weight="20.77" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="773" Name="Mountain-100 Silver, 44" ProductNumber="BK-M82S-44" Color="Silver" Size="44" SizeUnitMeasureCode="CM " ListPrice="3399.9900" StandardCost="1912.1544" Weight="21.13" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="774" Name="Mountain-100 Silver, 48" ProductNumber="BK-M82S-48" Color="Silver" Size="48" SizeUnitMeasureCode="CM " ListPrice="3399.9900" StandardCost="1912.1544" Weight="21.42" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="775" Name="Mountain-100 Black, 38" ProductNumber="BK-M82B-38" Color="Black" Size="38" SizeUnitMeasureCode="CM " ListPrice="3374.9900" StandardCost="1898.0944" Weight="20.35" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="776" Name="Mountain-100 Black, 42" ProductNumber="BK-M82B-42" Color="Black" Size="42" SizeUnitMeasureCode="CM " ListPrice="3374.9900" StandardCost="1898.0944" Weight="20.77" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="777" Name="Mountain-100 Black, 44" ProductNumber="BK-M82B-44" Color="Black" Size="44" SizeUnitMeasureCode="CM " ListPrice="3374.9900" StandardCost="1898.0944" Weight="21.13" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="778" Name="Mountain-100 Black, 48" ProductNumber="BK-M82B-48" Color="Black" Size="48" SizeUnitMeasureCode="CM " ListPrice="3374.9900" StandardCost="1898.0944" Weight="21.42" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="779" Name="Mountain-200 Silver, 38" ProductNumber="BK-M68S-38" Color="Silver" Size="38" SizeUnitMeasureCode="CM " ListPrice="2319.9900" StandardCost="1265.6195" Weight="23.35" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="780" Name="Mountain-200 Silver, 42" ProductNumber="BK-M68S-42" Color="Silver" Size="42" SizeUnitMeasureCode="CM " ListPrice="2319.9900" StandardCost="1265.6195" Weight="23.77" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="781" Name="Mountain-200 Silver, 46" ProductNumber="BK-M68S-46" Color="Silver" Size="46" SizeUnitMeasureCode="CM " ListPrice="2319.9900" StandardCost="1265.6195" Weight="24.13" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="782" Name="Mountain-200 Black, 38" ProductNumber="BK-M68B-38" Color="Black" Size="38" SizeUnitMeasureCode="CM " ListPrice="2294.9900" StandardCost="1251.9813" Weight="23.35" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="783" Name="Mountain-200 Black, 42" ProductNumber="BK-M68B-42" Color="Black" Size="42" SizeUnitMeasureCode="CM " ListPrice="2294.9900" StandardCost="1251.9813" Weight="23.77" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="784" Name="Mountain-200 Black, 46" ProductNumber="BK-M68B-46" Color="Black" Size="46" SizeUnitMeasureCode="CM " ListPrice="2294.9900" StandardCost="1251.9813" Weight="24.13" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="785" Name="Mountain-300 Black, 38" ProductNumber="BK-M47B-38" Color="Black" Size="38" SizeUnitMeasureCode="CM " ListPrice="1079.9900" StandardCost="598.4354" Weight="25.35" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="786" Name="Mountain-300 Black, 40" ProductNumber="BK-M47B-40" Color="Black" Size="40" SizeUnitMeasureCode="CM " ListPrice="1079.9900" StandardCost="598.4354" Weight="25.77" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="787" Name="Mountain-300 Black, 44" ProductNumber="BK-M47B-44" Color="Black" Size="44" SizeUnitMeasureCode="CM " ListPrice="1079.9900" StandardCost="598.4354" Weight="26.13" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="788" Name="Mountain-300 Black, 48" ProductNumber="BK-M47B-48" Color="Black" Size="48" SizeUnitMeasureCode="CM " ListPrice="1079.9900" StandardCost="598.4354" Weight="26.42" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="789" Name="Road-250 Red, 44" ProductNumber="BK-R89R-44" Color="Red" Size="44" SizeUnitMeasureCode="CM " ListPrice="2443.3500" StandardCost="1518.7864" Weight="14.77" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="790" Name="Road-250 Red, 48" ProductNumber="BK-R89R-48" Color="Red" Size="48" SizeUnitMeasureCode="CM " ListPrice="2443.3500" StandardCost="1518.7864" Weight="15.13" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="791" Name="Road-250 Red, 52" ProductNumber="BK-R89R-52" Color="Red" Size="52" SizeUnitMeasureCode="CM " ListPrice="2443.3500" StandardCost="1518.7864" Weight="15.42" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="792" Name="Road-250 Red, 58" ProductNumber="BK-R89R-58" Color="Red" Size="58" SizeUnitMeasureCode="CM " ListPrice="2443.3500" StandardCost="1554.9479" Weight="15.79" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="793" Name="Road-250 Black, 44" ProductNumber="BK-R89B-44" Color="Black" Size="44" SizeUnitMeasureCode="CM " ListPrice="2443.3500" StandardCost="1554.9479" Weight="14.77" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="794" Name="Road-250 Black, 48" ProductNumber="BK-R89B-48" Color="Black" Size="48" SizeUnitMeasureCode="CM " ListPrice="2443.3500" StandardCost="1554.9479" Weight="15.13" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="795" Name="Road-250 Black, 52" ProductNumber="BK-R89B-52" Color="Black" Size="52" SizeUnitMeasureCode="CM " ListPrice="2443.3500" StandardCost="1554.9479" Weight="15.42" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="796" Name="Road-250 Black, 58" ProductNumber="BK-R89B-58" Color="Black" Size="58" SizeUnitMeasureCode="CM " ListPrice="2443.3500" StandardCost="1554.9479" Weight="15.68" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="797" Name="Road-550-W Yellow, 38" ProductNumber="BK-R64Y-38" Color="Yellow" Size="38" SizeUnitMeasureCode="CM " ListPrice="1120.4900" StandardCost="713.0798" Weight="17.35" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="2" />
+    <Product ProductID="798" Name="Road-550-W Yellow, 40" ProductNumber="BK-R64Y-40" Color="Yellow" Size="40" SizeUnitMeasureCode="CM " ListPrice="1120.4900" StandardCost="713.0798" Weight="17.77" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="2" />
+    <Product ProductID="799" Name="Road-550-W Yellow, 42" ProductNumber="BK-R64Y-42" Color="Yellow" Size="42" SizeUnitMeasureCode="CM " ListPrice="1120.4900" StandardCost="713.0798" Weight="18.13" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="2" />
+    <Product ProductID="800" Name="Road-550-W Yellow, 44" ProductNumber="BK-R64Y-44" Color="Yellow" Size="44" SizeUnitMeasureCode="CM " ListPrice="1120.4900" StandardCost="713.0798" Weight="18.42" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="2" />
+    <Product ProductID="801" Name="Road-550-W Yellow, 48" ProductNumber="BK-R64Y-48" Color="Yellow" Size="48" SizeUnitMeasureCode="CM " ListPrice="1120.4900" StandardCost="713.0798" Weight="18.68" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="2" />
+    <Product ProductID="802" Name="LL Fork" ProductNumber="FK-1639" ListPrice="148.2200" StandardCost="65.8097" Class="L " ProductSubcategoryID="10" />
+    <Product ProductID="803" Name="ML Fork" ProductNumber="FK-5136" ListPrice="175.4900" StandardCost="77.9176" Class="M " ProductSubcategoryID="10" />
+    <Product ProductID="804" Name="HL Fork" ProductNumber="FK-9939" ListPrice="229.4900" StandardCost="101.8936" Class="H " ProductSubcategoryID="10" />
+    <Product ProductID="805" Name="LL Headset" ProductNumber="HS-0296" ListPrice="34.2000" StandardCost="15.1848" Class="L " ProductSubcategoryID="11" />
+    <Product ProductID="806" Name="ML Headset" ProductNumber="HS-2451" ListPrice="102.2900" StandardCost="45.4168" Class="M " ProductSubcategoryID="11" />
+    <Product ProductID="807" Name="HL Headset" ProductNumber="HS-3479" ListPrice="124.7300" StandardCost="55.3801" Class="H " ProductSubcategoryID="11" />
+    <Product ProductID="808" Name="LL Mountain Handlebars" ProductNumber="HB-M243" ListPrice="44.5400" StandardCost="19.7758" Class="L " ProductSubcategoryID="4" />
+    <Product ProductID="809" Name="ML Mountain Handlebars" ProductNumber="HB-M763" ListPrice="61.9200" StandardCost="27.4925" Class="M " ProductSubcategoryID="4" />
+    <Product ProductID="810" Name="HL Mountain Handlebars" ProductNumber="HB-M918" ListPrice="120.2700" StandardCost="53.3999" Class="H " ProductSubcategoryID="4" />
+    <Product ProductID="811" Name="LL Road Handlebars" ProductNumber="HB-R504" ListPrice="44.5400" StandardCost="19.7758" Class="L " ProductSubcategoryID="4" />
+    <Product ProductID="812" Name="ML Road Handlebars" ProductNumber="HB-R720" ListPrice="61.9200" StandardCost="27.4925" Class="M " ProductSubcategoryID="4" />
+    <Product ProductID="813" Name="HL Road Handlebars" ProductNumber="HB-R956" ListPrice="120.2700" StandardCost="53.3999" Class="H " ProductSubcategoryID="4" />
+    <Product ProductID="814" Name="ML Mountain Frame - Black, 38" ProductNumber="FR-M63B-38" Color="Black" Size="38" SizeUnitMeasureCode="CM " ListPrice="348.7600" StandardCost="185.8193" Weight="2.73" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="815" Name="LL Mountain Front Wheel" ProductNumber="FW-M423" Color="Black" ListPrice="60.7450" StandardCost="26.9708" Class="L " ProductSubcategoryID="17" />
+    <Product ProductID="816" Name="ML Mountain Front Wheel" ProductNumber="FW-M762" Color="Black" ListPrice="209.0250" StandardCost="92.8071" Class="M " ProductSubcategoryID="17" />
+    <Product ProductID="817" Name="HL Mountain Front Wheel" ProductNumber="FW-M928" Color="Black" ListPrice="300.2150" StandardCost="133.2955" Class="H " ProductSubcategoryID="17" />
+    <Product ProductID="818" Name="LL Road Front Wheel" ProductNumber="FW-R623" Color="Black" ListPrice="85.5650" StandardCost="37.9909" Weight="900.00" WeightUnitMeasureCode="G  " Class="L " ProductSubcategoryID="17" />
+    <Product ProductID="819" Name="ML Road Front Wheel" ProductNumber="FW-R762" Color="Black" ListPrice="248.3850" StandardCost="110.2829" Weight="850.00" WeightUnitMeasureCode="G  " Class="M " ProductSubcategoryID="17" />
+    <Product ProductID="820" Name="HL Road Front Wheel" ProductNumber="FW-R820" Color="Black" ListPrice="330.0600" StandardCost="146.5466" Weight="650.00" WeightUnitMeasureCode="G  " Class="H " ProductSubcategoryID="17" />
+    <Product ProductID="821" Name="Touring Front Wheel" ProductNumber="FW-T905" Color="Black" ListPrice="218.0100" StandardCost="96.7964" ProductSubcategoryID="17" />
+    <Product ProductID="822" Name="ML Road Frame-W - Yellow, 38" ProductNumber="FR-R72Y-38" Color="Yellow" Size="38" SizeUnitMeasureCode="CM " ListPrice="594.8300" StandardCost="360.9428" Weight="2.18" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="14" />
+    <Product ProductID="823" Name="LL Mountain Rear Wheel" ProductNumber="RW-M423" Color="Black" ListPrice="87.7450" StandardCost="38.9588" Class="L " ProductSubcategoryID="17" />
+    <Product ProductID="824" Name="ML Mountain Rear Wheel" ProductNumber="RW-M762" Color="Black" ListPrice="236.0250" StandardCost="104.7951" Class="M " ProductSubcategoryID="17" />
+    <Product ProductID="825" Name="HL Mountain Rear Wheel" ProductNumber="RW-M928" Color="Black" ListPrice="327.2150" StandardCost="145.2835" Class="H " ProductSubcategoryID="17" />
+    <Product ProductID="826" Name="LL Road Rear Wheel" ProductNumber="RW-R623" Color="Black" ListPrice="112.5650" StandardCost="49.9789" Weight="1050.00" WeightUnitMeasureCode="G  " Class="L " ProductSubcategoryID="17" />
+    <Product ProductID="827" Name="ML Road Rear Wheel" ProductNumber="RW-R762" Color="Black" ListPrice="275.3850" StandardCost="122.2709" Weight="1000.00" WeightUnitMeasureCode="G  " Class="M " ProductSubcategoryID="17" />
+    <Product ProductID="828" Name="HL Road Rear Wheel" ProductNumber="RW-R820" Color="Black" ListPrice="357.0600" StandardCost="158.5346" Weight="890.00" WeightUnitMeasureCode="G  " Class="H " ProductSubcategoryID="17" />
+    <Product ProductID="829" Name="Touring Rear Wheel" ProductNumber="RW-T905" Color="Black" ListPrice="245.0100" StandardCost="108.7844" ProductSubcategoryID="17" />
+    <Product ProductID="830" Name="ML Mountain Frame - Black, 40" ProductNumber="FR-M63B-40" Color="Black" Size="40" SizeUnitMeasureCode="CM " ListPrice="348.7600" StandardCost="185.8193" Weight="2.77" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="831" Name="ML Mountain Frame - Black, 44" ProductNumber="FR-M63B-44" Color="Black" Size="44" SizeUnitMeasureCode="CM " ListPrice="348.7600" StandardCost="185.8193" Weight="2.81" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="832" Name="ML Mountain Frame - Black, 48" ProductNumber="FR-M63B-48" Color="Black" Size="48" SizeUnitMeasureCode="CM " ListPrice="348.7600" StandardCost="185.8193" Weight="2.85" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="833" Name="ML Road Frame-W - Yellow, 40" ProductNumber="FR-R72Y-40" Color="Yellow" Size="40" SizeUnitMeasureCode="CM " ListPrice="594.8300" StandardCost="360.9428" Weight="2.22" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="14" />
+    <Product ProductID="834" Name="ML Road Frame-W - Yellow, 42" ProductNumber="FR-R72Y-42" Color="Yellow" Size="42" SizeUnitMeasureCode="CM " ListPrice="594.8300" StandardCost="360.9428" Weight="2.26" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="14" />
+    <Product ProductID="835" Name="ML Road Frame-W - Yellow, 44" ProductNumber="FR-R72Y-44" Color="Yellow" Size="44" SizeUnitMeasureCode="CM " ListPrice="594.8300" StandardCost="360.9428" Weight="2.30" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="14" />
+    <Product ProductID="836" Name="ML Road Frame-W - Yellow, 48" ProductNumber="FR-R72Y-48" Color="Yellow" Size="48" SizeUnitMeasureCode="CM " ListPrice="594.8300" StandardCost="360.9428" Weight="2.34" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="14" />
+    <Product ProductID="837" Name="HL Road Frame - Black, 62" ProductNumber="FR-R92B-62" Color="Black" Size="62" SizeUnitMeasureCode="CM " ListPrice="1431.5000" StandardCost="868.6342" Weight="2.30" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="838" Name="HL Road Frame - Black, 44" ProductNumber="FR-R92B-44" Color="Black" Size="44" SizeUnitMeasureCode="CM " ListPrice="1431.5000" StandardCost="868.6342" Weight="2.12" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="839" Name="HL Road Frame - Black, 48" ProductNumber="FR-R92B-48" Color="Black" Size="48" SizeUnitMeasureCode="CM " ListPrice="1431.5000" StandardCost="868.6342" Weight="2.16" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="840" Name="HL Road Frame - Black, 52" ProductNumber="FR-R92B-52" Color="Black" Size="52" SizeUnitMeasureCode="CM " ListPrice="1431.5000" StandardCost="868.6342" Weight="2.20" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="14" />
+    <Product ProductID="841" Name="Men's Sports Shorts, S" ProductNumber="SH-M897-S" Color="Black" Size="S" ListPrice="59.9900" StandardCost="24.7459" Style="M " ProductSubcategoryID="22" />
+    <Product ProductID="842" Name="Touring-Panniers, Large" ProductNumber="PA-T100" Color="Grey" ListPrice="125.0000" StandardCost="51.5625" ProductSubcategoryID="35" />
+    <Product ProductID="843" Name="Cable Lock" ProductNumber="LO-C100" ListPrice="25.0000" StandardCost="10.3125" ProductSubcategoryID="34" />
+    <Product ProductID="844" Name="Minipump" ProductNumber="PU-0452" ListPrice="19.9900" StandardCost="8.2459" ProductSubcategoryID="36" />
+    <Product ProductID="845" Name="Mountain Pump" ProductNumber="PU-M044" ListPrice="24.9900" StandardCost="10.3084" ProductSubcategoryID="36" />
+    <Product ProductID="846" Name="Taillights - Battery-Powered" ProductNumber="LT-T990" ListPrice="13.9900" StandardCost="5.7709" ProductSubcategoryID="33" />
+    <Product ProductID="847" Name="Headlights - Dual-Beam" ProductNumber="LT-H902" ListPrice="34.9900" StandardCost="14.4334" ProductSubcategoryID="33" />
+    <Product ProductID="848" Name="Headlights - Weatherproof" ProductNumber="LT-H903" ListPrice="44.9900" StandardCost="18.5584" ProductSubcategoryID="33" />
+    <Product ProductID="849" Name="Men's Sports Shorts, M" ProductNumber="SH-M897-M" Color="Black" Size="M" ListPrice="59.9900" StandardCost="24.7459" Style="M " ProductSubcategoryID="22" />
+    <Product ProductID="850" Name="Men's Sports Shorts, L" ProductNumber="SH-M897-L" Color="Black" Size="L" ListPrice="59.9900" StandardCost="24.7459" Style="M " ProductSubcategoryID="22" />
+    <Product ProductID="851" Name="Men's Sports Shorts, XL" ProductNumber="SH-M897-X" Color="Black" Size="XL" ListPrice="59.9900" StandardCost="24.7459" Style="M " ProductSubcategoryID="22" />
+    <Product ProductID="852" Name="Women's Tights, S" ProductNumber="TG-W091-S" Color="Black" Size="S" ListPrice="74.9900" StandardCost="30.9334" Style="W " ProductSubcategoryID="24" />
+    <Product ProductID="853" Name="Women's Tights, M" ProductNumber="TG-W091-M" Color="Black" Size="M" ListPrice="74.9900" StandardCost="30.9334" Style="W " ProductSubcategoryID="24" />
+    <Product ProductID="854" Name="Women's Tights, L" ProductNumber="TG-W091-L" Color="Black" Size="L" ListPrice="74.9900" StandardCost="30.9334" Style="W " ProductSubcategoryID="24" />
+    <Product ProductID="855" Name="Men's Bib-Shorts, S" ProductNumber="SB-M891-S" Color="Multi" Size="S" ListPrice="89.9900" StandardCost="37.1209" Style="M " ProductSubcategoryID="18" />
+    <Product ProductID="856" Name="Men's Bib-Shorts, M" ProductNumber="SB-M891-M" Color="Multi" Size="M" ListPrice="89.9900" StandardCost="37.1209" Style="M " ProductSubcategoryID="18" />
+    <Product ProductID="857" Name="Men's Bib-Shorts, L" ProductNumber="SB-M891-L" Color="Multi" Size="L" ListPrice="89.9900" StandardCost="37.1209" Style="M " ProductSubcategoryID="18" />
+    <Product ProductID="858" Name="Half-Finger Gloves, S" ProductNumber="GL-H102-S" Color="Black" Size="S" ListPrice="24.4900" StandardCost="9.1593" Style="U " ProductSubcategoryID="20" />
+    <Product ProductID="859" Name="Half-Finger Gloves, M" ProductNumber="GL-H102-M" Color="Black" Size="M" ListPrice="24.4900" StandardCost="9.1593" Style="U " ProductSubcategoryID="20" />
+    <Product ProductID="860" Name="Half-Finger Gloves, L" ProductNumber="GL-H102-L" Color="Black" Size="L" ListPrice="24.4900" StandardCost="9.1593" Style="U " ProductSubcategoryID="20" />
+    <Product ProductID="861" Name="Full-Finger Gloves, S" ProductNumber="GL-F110-S" Color="Black" Size="S" ListPrice="37.9900" StandardCost="15.6709" Style="U " ProductSubcategoryID="20" />
+    <Product ProductID="862" Name="Full-Finger Gloves, M" ProductNumber="GL-F110-M" Color="Black" Size="M" ListPrice="37.9900" StandardCost="15.6709" Style="U " ProductSubcategoryID="20" />
+    <Product ProductID="863" Name="Full-Finger Gloves, L" ProductNumber="GL-F110-L" Color="Black" Size="L" ListPrice="37.9900" StandardCost="15.6709" Style="U " ProductSubcategoryID="20" />
+    <Product ProductID="864" Name="Classic Vest, S" ProductNumber="VE-C304-S" Color="Blue" Size="S" ListPrice="63.5000" StandardCost="23.7490" Style="U " ProductSubcategoryID="25" />
+    <Product ProductID="865" Name="Classic Vest, M" ProductNumber="VE-C304-M" Color="Blue" Size="M" ListPrice="63.5000" StandardCost="23.7490" Style="U " ProductSubcategoryID="25" />
+    <Product ProductID="866" Name="Classic Vest, L" ProductNumber="VE-C304-L" Color="Blue" Size="L" ListPrice="63.5000" StandardCost="23.7490" Style="U " ProductSubcategoryID="25" />
+    <Product ProductID="867" Name="Women's Mountain Shorts, S" ProductNumber="SH-W890-S" Color="Black" Size="S" ListPrice="69.9900" StandardCost="26.1763" Style="W " ProductSubcategoryID="22" />
+    <Product ProductID="868" Name="Women's Mountain Shorts, M" ProductNumber="SH-W890-M" Color="Black" Size="M" ListPrice="69.9900" StandardCost="26.1763" Style="W " ProductSubcategoryID="22" />
+    <Product ProductID="869" Name="Women's Mountain Shorts, L" ProductNumber="SH-W890-L" Color="Black" Size="L" ListPrice="69.9900" StandardCost="26.1763" Style="W " ProductSubcategoryID="22" />
+    <Product ProductID="870" Name="Water Bottle - 30 oz." ProductNumber="WB-H098" ListPrice="4.9900" StandardCost="1.8663" ProductSubcategoryID="28" />
+    <Product ProductID="871" Name="Mountain Bottle Cage" ProductNumber="BC-M005" ListPrice="9.9900" StandardCost="3.7363" ProductSubcategoryID="28" />
+    <Product ProductID="872" Name="Road Bottle Cage" ProductNumber="BC-R205" ListPrice="8.9900" StandardCost="3.3623" ProductSubcategoryID="28" />
+    <Product ProductID="873" Name="Patch Kit/8 Patches" ProductNumber="PK-7098" ListPrice="2.2900" StandardCost="0.8565" ProductSubcategoryID="37" />
+    <Product ProductID="874" Name="Racing Socks, M" ProductNumber="SO-R809-M" Color="White" Size="M" ListPrice="8.9900" StandardCost="3.3623" Style="U " ProductSubcategoryID="23" />
+    <Product ProductID="875" Name="Racing Socks, L" ProductNumber="SO-R809-L" Color="White" Size="L" ListPrice="8.9900" StandardCost="3.3623" Style="U " ProductSubcategoryID="23" />
+    <Product ProductID="876" Name="Hitch Rack - 4-Bike" ProductNumber="RA-H123" ListPrice="120.0000" StandardCost="44.8800" ProductSubcategoryID="26" />
+    <Product ProductID="877" Name="Bike Wash - Dissolver" ProductNumber="CL-9009" ListPrice="7.9500" StandardCost="2.9733" ProductSubcategoryID="29" />
+    <Product ProductID="878" Name="Fender Set - Mountain" ProductNumber="FE-6654" ListPrice="21.9800" StandardCost="8.2205" ProductSubcategoryID="30" />
+    <Product ProductID="879" Name="All-Purpose Bike Stand" ProductNumber="ST-1401" ListPrice="159.0000" StandardCost="59.4660" ProductSubcategoryID="27" />
+    <Product ProductID="880" Name="Hydration Pack - 70 oz." ProductNumber="HY-1023-70" Color="Silver" Size="70" ListPrice="54.9900" StandardCost="20.5663" ProductSubcategoryID="32" />
+    <Product ProductID="881" Name="Short-Sleeve Classic Jersey, S" ProductNumber="SJ-0194-S" Color="Yellow" Size="S" ListPrice="53.9900" StandardCost="41.5723" Style="U " ProductSubcategoryID="21" />
+    <Product ProductID="882" Name="Short-Sleeve Classic Jersey, M" ProductNumber="SJ-0194-M" Color="Yellow" Size="M" ListPrice="53.9900" StandardCost="41.5723" Style="U " ProductSubcategoryID="21" />
+    <Product ProductID="883" Name="Short-Sleeve Classic Jersey, L" ProductNumber="SJ-0194-L" Color="Yellow" Size="L" ListPrice="53.9900" StandardCost="41.5723" Style="U " ProductSubcategoryID="21" />
+    <Product ProductID="884" Name="Short-Sleeve Classic Jersey, XL" ProductNumber="SJ-0194-X" Color="Yellow" Size="XL" ListPrice="53.9900" StandardCost="41.5723" Style="U " ProductSubcategoryID="21" />
+    <Product ProductID="885" Name="HL Touring Frame - Yellow, 60" ProductNumber="FR-T98Y-60" Color="Yellow" Size="60" SizeUnitMeasureCode="CM " ListPrice="1003.9100" StandardCost="601.7437" Weight="3.08" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="16" />
+    <Product ProductID="886" Name="LL Touring Frame - Yellow, 62" ProductNumber="FR-T67Y-62" Color="Yellow" Size="62" SizeUnitMeasureCode="CM " ListPrice="333.4200" StandardCost="199.8519" Weight="3.20" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="16" />
+    <Product ProductID="887" Name="HL Touring Frame - Yellow, 46" ProductNumber="FR-T98Y-46" Color="Yellow" Size="46" SizeUnitMeasureCode="CM " ListPrice="1003.9100" StandardCost="601.7437" Weight="2.96" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="16" />
+    <Product ProductID="888" Name="HL Touring Frame - Yellow, 50" ProductNumber="FR-T98Y-50" Color="Yellow" Size="50" SizeUnitMeasureCode="CM " ListPrice="1003.9100" StandardCost="601.7437" Weight="3.00" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="16" />
+    <Product ProductID="889" Name="HL Touring Frame - Yellow, 54" ProductNumber="FR-T98Y-54" Color="Yellow" Size="54" SizeUnitMeasureCode="CM " ListPrice="1003.9100" StandardCost="601.7437" Weight="3.04" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="16" />
+    <Product ProductID="890" Name="HL Touring Frame - Blue, 46" ProductNumber="FR-T98U-46" Color="Blue" Size="46" SizeUnitMeasureCode="CM " ListPrice="1003.9100" StandardCost="601.7437" Weight="2.96" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="16" />
+    <Product ProductID="891" Name="HL Touring Frame - Blue, 50" ProductNumber="FR-T98U-50" Color="Blue" Size="50" SizeUnitMeasureCode="CM " ListPrice="1003.9100" StandardCost="601.7437" Weight="3.00" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="16" />
+    <Product ProductID="892" Name="HL Touring Frame - Blue, 54" ProductNumber="FR-T98U-54" Color="Blue" Size="54" SizeUnitMeasureCode="CM " ListPrice="1003.9100" StandardCost="601.7437" Weight="3.04" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="16" />
+    <Product ProductID="893" Name="HL Touring Frame - Blue, 60" ProductNumber="FR-T98U-60" Color="Blue" Size="60" SizeUnitMeasureCode="CM " ListPrice="1003.9100" StandardCost="601.7437" Weight="3.08" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="16" />
+    <Product ProductID="894" Name="Rear Derailleur" ProductNumber="RD-2308" Color="Silver" ListPrice="121.4600" StandardCost="53.9282" Weight="215.00" WeightUnitMeasureCode="G  " ProductSubcategoryID="9" />
+    <Product ProductID="895" Name="LL Touring Frame - Blue, 50" ProductNumber="FR-T67U-50" Color="Blue" Size="50" SizeUnitMeasureCode="CM " ListPrice="333.4200" StandardCost="199.8519" Weight="3.10" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="16" />
+    <Product ProductID="896" Name="LL Touring Frame - Blue, 54" ProductNumber="FR-T67U-54" Color="Blue" Size="54" SizeUnitMeasureCode="CM " ListPrice="333.4200" StandardCost="199.8519" Weight="3.14" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="16" />
+    <Product ProductID="897" Name="LL Touring Frame - Blue, 58" ProductNumber="FR-T67U-58" Color="Blue" Size="58" SizeUnitMeasureCode="CM " ListPrice="333.4200" StandardCost="199.8519" Weight="3.16" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="16" />
+    <Product ProductID="898" Name="LL Touring Frame - Blue, 62" ProductNumber="FR-T67U-62" Color="Blue" Size="62" SizeUnitMeasureCode="CM " ListPrice="333.4200" StandardCost="199.8519" Weight="3.20" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="16" />
+    <Product ProductID="899" Name="LL Touring Frame - Yellow, 44" ProductNumber="FR-T67Y-44" Color="Yellow" Size="44" SizeUnitMeasureCode="CM " ListPrice="333.4200" StandardCost="199.8519" Weight="3.02" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="16" />
+    <Product ProductID="900" Name="LL Touring Frame - Yellow, 50" ProductNumber="FR-T67Y-50" Color="Yellow" Size="50" SizeUnitMeasureCode="CM " ListPrice="333.4200" StandardCost="199.8519" Weight="3.10" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="16" />
+    <Product ProductID="901" Name="LL Touring Frame - Yellow, 54" ProductNumber="FR-T67Y-54" Color="Yellow" Size="54" SizeUnitMeasureCode="CM " ListPrice="333.4200" StandardCost="199.8519" Weight="3.14" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="16" />
+    <Product ProductID="902" Name="LL Touring Frame - Yellow, 58" ProductNumber="FR-T67Y-58" Color="Yellow" Size="58" SizeUnitMeasureCode="CM " ListPrice="333.4200" StandardCost="199.8519" Weight="3.16" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="16" />
+    <Product ProductID="903" Name="LL Touring Frame - Blue, 44" ProductNumber="FR-T67U-44" Color="Blue" Size="44" SizeUnitMeasureCode="CM " ListPrice="333.4200" StandardCost="199.8519" Weight="3.02" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="16" />
+    <Product ProductID="904" Name="ML Mountain Frame-W - Silver, 40" ProductNumber="FR-M63S-40" Color="Silver" Size="40" SizeUnitMeasureCode="CM " ListPrice="364.0900" StandardCost="199.3757" Weight="2.77" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="12" />
+    <Product ProductID="905" Name="ML Mountain Frame-W - Silver, 42" ProductNumber="FR-M63S-42" Color="Silver" Size="42" SizeUnitMeasureCode="CM " ListPrice="364.0900" StandardCost="199.3757" Weight="2.81" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="12" />
+    <Product ProductID="906" Name="ML Mountain Frame-W - Silver, 46" ProductNumber="FR-M63S-46" Color="Silver" Size="46" SizeUnitMeasureCode="CM " ListPrice="364.0900" StandardCost="199.3757" Weight="2.85" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="12" />
+    <Product ProductID="907" Name="Rear Brakes" ProductNumber="RB-9231" Color="Silver" ListPrice="106.5000" StandardCost="47.2860" Weight="317.00" WeightUnitMeasureCode="G  " ProductSubcategoryID="6" />
+    <Product ProductID="908" Name="LL Mountain Seat/Saddle" ProductNumber="SE-M236" ListPrice="27.1200" StandardCost="12.0413" Class="L " ProductSubcategoryID="15" />
+    <Product ProductID="909" Name="ML Mountain Seat/Saddle" ProductNumber="SE-M798" ListPrice="39.1400" StandardCost="17.3782" Class="M " ProductSubcategoryID="15" />
+    <Product ProductID="910" Name="HL Mountain Seat/Saddle" ProductNumber="SE-M940" ListPrice="52.6400" StandardCost="23.3722" Class="H " ProductSubcategoryID="15" />
+    <Product ProductID="911" Name="LL Road Seat/Saddle" ProductNumber="SE-R581" ListPrice="27.1200" StandardCost="12.0413" Class="L " ProductSubcategoryID="15" />
+    <Product ProductID="912" Name="ML Road Seat/Saddle" ProductNumber="SE-R908" ListPrice="39.1400" StandardCost="17.3782" Class="M " ProductSubcategoryID="15" />
+    <Product ProductID="913" Name="HL Road Seat/Saddle" ProductNumber="SE-R995" ListPrice="52.6400" StandardCost="23.3722" Class="H " ProductSubcategoryID="15" />
+    <Product ProductID="914" Name="LL Touring Seat/Saddle" ProductNumber="SE-T312" ListPrice="27.1200" StandardCost="12.0413" Class="L " ProductSubcategoryID="15" />
+    <Product ProductID="915" Name="ML Touring Seat/Saddle" ProductNumber="SE-T762" ListPrice="39.1400" StandardCost="17.3782" Class="M " ProductSubcategoryID="15" />
+    <Product ProductID="916" Name="HL Touring Seat/Saddle" ProductNumber="SE-T924" ListPrice="52.6400" StandardCost="23.3722" Class="H " ProductSubcategoryID="15" />
+    <Product ProductID="917" Name="LL Mountain Frame - Silver, 42" ProductNumber="FR-M21S-42" Color="Silver" Size="42" SizeUnitMeasureCode="CM " ListPrice="264.0500" StandardCost="144.5938" Weight="2.92" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="918" Name="LL Mountain Frame - Silver, 44" ProductNumber="FR-M21S-44" Color="Silver" Size="44" SizeUnitMeasureCode="CM " ListPrice="264.0500" StandardCost="144.5938" Weight="2.96" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="919" Name="LL Mountain Frame - Silver, 48" ProductNumber="FR-M21S-48" Color="Silver" Size="48" SizeUnitMeasureCode="CM " ListPrice="264.0500" StandardCost="144.5938" Weight="3.00" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="920" Name="LL Mountain Frame - Silver, 52" ProductNumber="FR-M21S-52" Color="Silver" Size="52" SizeUnitMeasureCode="CM " ListPrice="264.0500" StandardCost="144.5938" Weight="3.04" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="921" Name="Mountain Tire Tube" ProductNumber="TT-M928" ListPrice="4.9900" StandardCost="1.8663" ProductSubcategoryID="37" />
+    <Product ProductID="922" Name="Road Tire Tube" ProductNumber="TT-R982" ListPrice="3.9900" StandardCost="1.4923" ProductSubcategoryID="37" />
+    <Product ProductID="923" Name="Touring Tire Tube" ProductNumber="TT-T092" ListPrice="4.9900" StandardCost="1.8663" ProductSubcategoryID="37" />
+    <Product ProductID="924" Name="LL Mountain Frame - Black, 42" ProductNumber="FR-M21B-42" Color="Black" Size="42" SizeUnitMeasureCode="CM " ListPrice="249.7900" StandardCost="136.7850" Weight="2.92" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="925" Name="LL Mountain Frame - Black, 44" ProductNumber="FR-M21B-44" Color="Black" Size="44" SizeUnitMeasureCode="CM " ListPrice="249.7900" StandardCost="136.7850" Weight="2.96" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="926" Name="LL Mountain Frame - Black, 48" ProductNumber="FR-M21B-48" Color="Black" Size="48" SizeUnitMeasureCode="CM " ListPrice="249.7900" StandardCost="136.7850" Weight="3.00" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="927" Name="LL Mountain Frame - Black, 52" ProductNumber="FR-M21B-52" Color="Black" Size="52" SizeUnitMeasureCode="CM " ListPrice="249.7900" StandardCost="136.7850" Weight="3.04" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="928" Name="LL Mountain Tire" ProductNumber="TI-M267" ListPrice="24.9900" StandardCost="9.3463" Class="L " ProductSubcategoryID="37" />
+    <Product ProductID="929" Name="ML Mountain Tire" ProductNumber="TI-M602" ListPrice="29.9900" StandardCost="11.2163" Class="M " ProductSubcategoryID="37" />
+    <Product ProductID="930" Name="HL Mountain Tire" ProductNumber="TI-M823" ListPrice="35.0000" StandardCost="13.0900" Class="H " ProductSubcategoryID="37" />
+    <Product ProductID="931" Name="LL Road Tire" ProductNumber="TI-R092" ListPrice="21.4900" StandardCost="8.0373" Class="L " ProductSubcategoryID="37" />
+    <Product ProductID="932" Name="ML Road Tire" ProductNumber="TI-R628" ListPrice="24.9900" StandardCost="9.3463" Class="M " ProductSubcategoryID="37" />
+    <Product ProductID="933" Name="HL Road Tire" ProductNumber="TI-R982" ListPrice="32.6000" StandardCost="12.1924" Class="H " ProductSubcategoryID="37" />
+    <Product ProductID="934" Name="Touring Tire" ProductNumber="TI-T723" ListPrice="28.9900" StandardCost="10.8423" ProductSubcategoryID="37" />
+    <Product ProductID="935" Name="LL Mountain Pedal" ProductNumber="PD-M282" Color="Silver/Black" ListPrice="40.4900" StandardCost="17.9776" Weight="218.00" WeightUnitMeasureCode="G  " Class="L " ProductSubcategoryID="13" />
+    <Product ProductID="936" Name="ML Mountain Pedal" ProductNumber="PD-M340" Color="Silver/Black" ListPrice="62.0900" StandardCost="27.5680" Weight="215.00" WeightUnitMeasureCode="G  " Class="M " ProductSubcategoryID="13" />
+    <Product ProductID="937" Name="HL Mountain Pedal" ProductNumber="PD-M562" Color="Silver/Black" ListPrice="80.9900" StandardCost="35.9596" Weight="185.00" WeightUnitMeasureCode="G  " Class="H " ProductSubcategoryID="13" />
+    <Product ProductID="938" Name="LL Road Pedal" ProductNumber="PD-R347" Color="Silver/Black" ListPrice="40.4900" StandardCost="17.9776" Weight="189.00" WeightUnitMeasureCode="G  " Class="L " ProductSubcategoryID="13" />
+    <Product ProductID="939" Name="ML Road Pedal" ProductNumber="PD-R563" Color="Silver/Black" ListPrice="62.0900" StandardCost="27.5680" Weight="168.00" WeightUnitMeasureCode="G  " Class="M " ProductSubcategoryID="13" />
+    <Product ProductID="940" Name="HL Road Pedal" ProductNumber="PD-R853" Color="Silver/Black" ListPrice="80.9900" StandardCost="35.9596" Weight="149.00" WeightUnitMeasureCode="G  " Class="H " ProductSubcategoryID="13" />
+    <Product ProductID="941" Name="Touring Pedal" ProductNumber="PD-T852" Color="Silver/Black" ListPrice="80.9900" StandardCost="35.9596" ProductSubcategoryID="13" />
+    <Product ProductID="942" Name="ML Mountain Frame-W - Silver, 38" ProductNumber="FR-M63S-38" Color="Silver" Size="38" SizeUnitMeasureCode="CM " ListPrice="364.0900" StandardCost="199.3757" Weight="2.73" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="12" />
+    <Product ProductID="943" Name="LL Mountain Frame - Black, 40" ProductNumber="FR-M21B-40" Color="Black" Size="40" SizeUnitMeasureCode="CM " ListPrice="249.7900" StandardCost="136.7850" Weight="2.88" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="944" Name="LL Mountain Frame - Silver, 40" ProductNumber="FR-M21S-40" Color="Silver" Size="40" SizeUnitMeasureCode="CM " ListPrice="264.0500" StandardCost="144.5938" Weight="2.88" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="12" />
+    <Product ProductID="945" Name="Front Derailleur" ProductNumber="FD-2342" Color="Silver" ListPrice="91.4900" StandardCost="40.6216" Weight="88.00" WeightUnitMeasureCode="G  " ProductSubcategoryID="9" />
+    <Product ProductID="946" Name="LL Touring Handlebars" ProductNumber="HB-T721" ListPrice="46.0900" StandardCost="20.4640" Class="L " ProductSubcategoryID="4" />
+    <Product ProductID="947" Name="HL Touring Handlebars" ProductNumber="HB-T928" ListPrice="91.5700" StandardCost="40.6571" Class="H " ProductSubcategoryID="4" />
+    <Product ProductID="948" Name="Front Brakes" ProductNumber="FB-9873" Color="Silver" ListPrice="106.5000" StandardCost="47.2860" Weight="317.00" WeightUnitMeasureCode="G  " ProductSubcategoryID="6" />
+    <Product ProductID="949" Name="LL Crankset" ProductNumber="CS-4759" Color="Black" ListPrice="175.4900" StandardCost="77.9176" Weight="600.00" WeightUnitMeasureCode="G  " Class="L " ProductSubcategoryID="8" />
+    <Product ProductID="950" Name="ML Crankset" ProductNumber="CS-6583" Color="Black" ListPrice="256.4900" StandardCost="113.8816" Weight="635.00" WeightUnitMeasureCode="G  " Class="M " ProductSubcategoryID="8" />
+    <Product ProductID="951" Name="HL Crankset" ProductNumber="CS-9183" Color="Black" ListPrice="404.9900" StandardCost="179.8156" Weight="575.00" WeightUnitMeasureCode="G  " Class="H " ProductSubcategoryID="8" />
+    <Product ProductID="952" Name="Chain" ProductNumber="CH-0234" Color="Silver" ListPrice="20.2400" StandardCost="8.9866" ProductSubcategoryID="7" />
+    <Product ProductID="953" Name="Touring-2000 Blue, 60" ProductNumber="BK-T44U-60" Color="Blue" Size="60" SizeUnitMeasureCode="CM " ListPrice="1214.8500" StandardCost="755.1508" Weight="27.90" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="954" Name="Touring-1000 Yellow, 46" ProductNumber="BK-T79Y-46" Color="Yellow" Size="46" SizeUnitMeasureCode="CM " ListPrice="2384.0700" StandardCost="1481.9379" Weight="25.13" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="955" Name="Touring-1000 Yellow, 50" ProductNumber="BK-T79Y-50" Color="Yellow" Size="50" SizeUnitMeasureCode="CM " ListPrice="2384.0700" StandardCost="1481.9379" Weight="25.42" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="956" Name="Touring-1000 Yellow, 54" ProductNumber="BK-T79Y-54" Color="Yellow" Size="54" SizeUnitMeasureCode="CM " ListPrice="2384.0700" StandardCost="1481.9379" Weight="25.68" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="957" Name="Touring-1000 Yellow, 60" ProductNumber="BK-T79Y-60" Color="Yellow" Size="60" SizeUnitMeasureCode="CM " ListPrice="2384.0700" StandardCost="1481.9379" Weight="25.90" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="958" Name="Touring-3000 Blue, 54" ProductNumber="BK-T18U-54" Color="Blue" Size="54" SizeUnitMeasureCode="CM " ListPrice="742.3500" StandardCost="461.4448" Weight="29.68" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="959" Name="Touring-3000 Blue, 58" ProductNumber="BK-T18U-58" Color="Blue" Size="58" SizeUnitMeasureCode="CM " ListPrice="742.3500" StandardCost="461.4448" Weight="29.90" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="960" Name="Touring-3000 Blue, 62" ProductNumber="BK-T18U-62" Color="Blue" Size="62" SizeUnitMeasureCode="CM " ListPrice="742.3500" StandardCost="461.4448" Weight="30.00" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="961" Name="Touring-3000 Yellow, 44" ProductNumber="BK-T18Y-44" Color="Yellow" Size="44" SizeUnitMeasureCode="CM " ListPrice="742.3500" StandardCost="461.4448" Weight="28.77" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="962" Name="Touring-3000 Yellow, 50" ProductNumber="BK-T18Y-50" Color="Yellow" Size="50" SizeUnitMeasureCode="CM " ListPrice="742.3500" StandardCost="461.4448" Weight="29.13" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="963" Name="Touring-3000 Yellow, 54" ProductNumber="BK-T18Y-54" Color="Yellow" Size="54" SizeUnitMeasureCode="CM " ListPrice="742.3500" StandardCost="461.4448" Weight="29.42" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="964" Name="Touring-3000 Yellow, 58" ProductNumber="BK-T18Y-58" Color="Yellow" Size="58" SizeUnitMeasureCode="CM " ListPrice="742.3500" StandardCost="461.4448" Weight="29.79" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="965" Name="Touring-3000 Yellow, 62" ProductNumber="BK-T18Y-62" Color="Yellow" Size="62" SizeUnitMeasureCode="CM " ListPrice="742.3500" StandardCost="461.4448" Weight="30.00" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="966" Name="Touring-1000 Blue, 46" ProductNumber="BK-T79U-46" Color="Blue" Size="46" SizeUnitMeasureCode="CM " ListPrice="2384.0700" StandardCost="1481.9379" Weight="25.13" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="967" Name="Touring-1000 Blue, 50" ProductNumber="BK-T79U-50" Color="Blue" Size="50" SizeUnitMeasureCode="CM " ListPrice="2384.0700" StandardCost="1481.9379" Weight="25.42" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="968" Name="Touring-1000 Blue, 54" ProductNumber="BK-T79U-54" Color="Blue" Size="54" SizeUnitMeasureCode="CM " ListPrice="2384.0700" StandardCost="1481.9379" Weight="25.68" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="969" Name="Touring-1000 Blue, 60" ProductNumber="BK-T79U-60" Color="Blue" Size="60" SizeUnitMeasureCode="CM " ListPrice="2384.0700" StandardCost="1481.9379" Weight="25.90" WeightUnitMeasureCode="LB " Class="H " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="970" Name="Touring-2000 Blue, 46" ProductNumber="BK-T44U-46" Color="Blue" Size="46" SizeUnitMeasureCode="CM " ListPrice="1214.8500" StandardCost="755.1508" Weight="27.13" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="971" Name="Touring-2000 Blue, 50" ProductNumber="BK-T44U-50" Color="Blue" Size="50" SizeUnitMeasureCode="CM " ListPrice="1214.8500" StandardCost="755.1508" Weight="27.42" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="972" Name="Touring-2000 Blue, 54" ProductNumber="BK-T44U-54" Color="Blue" Size="54" SizeUnitMeasureCode="CM " ListPrice="1214.8500" StandardCost="755.1508" Weight="27.68" WeightUnitMeasureCode="LB " Class="M " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="973" Name="Road-350-W Yellow, 40" ProductNumber="BK-R79Y-40" Color="Yellow" Size="40" SizeUnitMeasureCode="CM " ListPrice="1700.9900" StandardCost="1082.5100" Weight="15.35" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="2" />
+    <Product ProductID="974" Name="Road-350-W Yellow, 42" ProductNumber="BK-R79Y-42" Color="Yellow" Size="42" SizeUnitMeasureCode="CM " ListPrice="1700.9900" StandardCost="1082.5100" Weight="15.77" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="2" />
+    <Product ProductID="975" Name="Road-350-W Yellow, 44" ProductNumber="BK-R79Y-44" Color="Yellow" Size="44" SizeUnitMeasureCode="CM " ListPrice="1700.9900" StandardCost="1082.5100" Weight="16.13" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="2" />
+    <Product ProductID="976" Name="Road-350-W Yellow, 48" ProductNumber="BK-R79Y-48" Color="Yellow" Size="48" SizeUnitMeasureCode="CM " ListPrice="1700.9900" StandardCost="1082.5100" Weight="16.42" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="2" />
+    <Product ProductID="977" Name="Road-750 Black, 58" ProductNumber="BK-R19B-58" Color="Black" Size="58" SizeUnitMeasureCode="CM " ListPrice="539.9900" StandardCost="343.6496" Weight="20.79" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="978" Name="Touring-3000 Blue, 44" ProductNumber="BK-T18U-44" Color="Blue" Size="44" SizeUnitMeasureCode="CM " ListPrice="742.3500" StandardCost="461.4448" Weight="28.77" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="979" Name="Touring-3000 Blue, 50" ProductNumber="BK-T18U-50" Color="Blue" Size="50" SizeUnitMeasureCode="CM " ListPrice="742.3500" StandardCost="461.4448" Weight="29.13" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="3" />
+    <Product ProductID="980" Name="Mountain-400-W Silver, 38" ProductNumber="BK-M38S-38" Color="Silver" Size="38" SizeUnitMeasureCode="CM " ListPrice="769.4900" StandardCost="419.7784" Weight="26.35" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="1" />
+    <Product ProductID="981" Name="Mountain-400-W Silver, 40" ProductNumber="BK-M38S-40" Color="Silver" Size="40" SizeUnitMeasureCode="CM " ListPrice="769.4900" StandardCost="419.7784" Weight="26.77" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="1" />
+    <Product ProductID="982" Name="Mountain-400-W Silver, 42" ProductNumber="BK-M38S-42" Color="Silver" Size="42" SizeUnitMeasureCode="CM " ListPrice="769.4900" StandardCost="419.7784" Weight="27.13" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="1" />
+    <Product ProductID="983" Name="Mountain-400-W Silver, 46" ProductNumber="BK-M38S-46" Color="Silver" Size="46" SizeUnitMeasureCode="CM " ListPrice="769.4900" StandardCost="419.7784" Weight="27.42" WeightUnitMeasureCode="LB " Class="M " Style="W " ProductSubcategoryID="1" />
+    <Product ProductID="984" Name="Mountain-500 Silver, 40" ProductNumber="BK-M18S-40" Color="Silver" Size="40" SizeUnitMeasureCode="CM " ListPrice="564.9900" StandardCost="308.2179" Weight="27.35" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="985" Name="Mountain-500 Silver, 42" ProductNumber="BK-M18S-42" Color="Silver" Size="42" SizeUnitMeasureCode="CM " ListPrice="564.9900" StandardCost="308.2179" Weight="27.77" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="986" Name="Mountain-500 Silver, 44" ProductNumber="BK-M18S-44" Color="Silver" Size="44" SizeUnitMeasureCode="CM " ListPrice="564.9900" StandardCost="308.2179" Weight="28.13" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="987" Name="Mountain-500 Silver, 48" ProductNumber="BK-M18S-48" Color="Silver" Size="48" SizeUnitMeasureCode="CM " ListPrice="564.9900" StandardCost="308.2179" Weight="28.42" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="988" Name="Mountain-500 Silver, 52" ProductNumber="BK-M18S-52" Color="Silver" Size="52" SizeUnitMeasureCode="CM " ListPrice="564.9900" StandardCost="308.2179" Weight="28.68" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="989" Name="Mountain-500 Black, 40" ProductNumber="BK-M18B-40" Color="Black" Size="40" SizeUnitMeasureCode="CM " ListPrice="539.9900" StandardCost="294.5797" Weight="27.35" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="990" Name="Mountain-500 Black, 42" ProductNumber="BK-M18B-42" Color="Black" Size="42" SizeUnitMeasureCode="CM " ListPrice="539.9900" StandardCost="294.5797" Weight="27.77" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="991" Name="Mountain-500 Black, 44" ProductNumber="BK-M18B-44" Color="Black" Size="44" SizeUnitMeasureCode="CM " ListPrice="539.9900" StandardCost="294.5797" Weight="28.13" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="992" Name="Mountain-500 Black, 48" ProductNumber="BK-M18B-48" Color="Black" Size="48" SizeUnitMeasureCode="CM " ListPrice="539.9900" StandardCost="294.5797" Weight="28.42" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="993" Name="Mountain-500 Black, 52" ProductNumber="BK-M18B-52" Color="Black" Size="52" SizeUnitMeasureCode="CM " ListPrice="539.9900" StandardCost="294.5797" Weight="28.68" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="1" />
+    <Product ProductID="994" Name="LL Bottom Bracket" ProductNumber="BB-7421" ListPrice="53.9900" StandardCost="23.9716" Weight="223.00" WeightUnitMeasureCode="G  " Class="L " ProductSubcategoryID="5" />
+    <Product ProductID="995" Name="ML Bottom Bracket" ProductNumber="BB-8107" ListPrice="101.2400" StandardCost="44.9506" Weight="168.00" WeightUnitMeasureCode="G  " Class="M " ProductSubcategoryID="5" />
+    <Product ProductID="996" Name="HL Bottom Bracket" ProductNumber="BB-9108" ListPrice="121.4900" StandardCost="53.9416" Weight="170.00" WeightUnitMeasureCode="G  " Class="H " ProductSubcategoryID="5" />
+    <Product ProductID="997" Name="Road-750 Black, 44" ProductNumber="BK-R19B-44" Color="Black" Size="44" SizeUnitMeasureCode="CM " ListPrice="539.9900" StandardCost="343.6496" Weight="19.77" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="998" Name="Road-750 Black, 48" ProductNumber="BK-R19B-48" Color="Black" Size="48" SizeUnitMeasureCode="CM " ListPrice="539.9900" StandardCost="343.6496" Weight="20.13" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="2" />
+    <Product ProductID="999" Name="Road-750 Black, 52" ProductNumber="BK-R19B-52" Color="Black" Size="52" SizeUnitMeasureCode="CM " ListPrice="539.9900" StandardCost="343.6496" Weight="20.42" WeightUnitMeasureCode="LB " Class="L " Style="U " ProductSubcategoryID="2" />
+</Products>

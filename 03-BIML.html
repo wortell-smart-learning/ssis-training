@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+# BIML
+ETL and ELT with SSIS - day 3
+---
+# Disclaimer
+
+This is a brief slideshow introductions of the following articles on www.bimlscript.com
+
+* [What is Biml?](http://bimlscript.com/walkthrough/Details/3105)
+* [Biml Tools](http://bimlscript.com/walkthrough/Details/3107)
+* [Automation and Patterns](http://bimlscript.com/walkthrough/Details/3108)
+* [Introduction to XML](http://bimlscript.com/walkthrough/Details/3109)
+* [Biml Basics](http://bimlscript.com/walkthrough/Details/3110)
+
+
+---
+# The problem with SSIS
+
+* Driven by mouse input
+* Much developer time spent by dragging &amp; dropping
+  * Slow
+  * Boring
+  * Error prone
+---
+# How does Biml address this issue?
+
+* Biml creates human readable and writable source code
+  * Based on XML
+  * Can be reused
+  * Can be integrated with nuggets of C# for more automation
+* Generates SSIS packages
+  * So no installs on the server needed. Output is still SSIS
+* Helps to guard patterns & practices
+
+---
+# BimlExpress
+
+* Free extension for Visual Studio (SSDT)
+* Generates packages (.dtsx files)
+* Download from https://www.varigence.com/BimlExpress
+  * register to get a free license
+
+---
+# XML: The Simplest Document
+
+```XML
+<root></root>
+```
+
+---
+# XML: The Simplest Document
+
+```XML
+<root />
+```
+
+---
+
+# XML: children within the root node
+
+```XML
+<root>
+  <parent></parent>
+  <parent></parent>
+  <parent></parent>
+</root>
+```
+
+---
+# XML: children within the root node
+
+```XML
+<root>
+  <parent>
+      <child></child>
+      <child></child>
+  </parent>
+  <parent>
+      <child></child>
+      <child></child>
+      <child></child>
+  </parent>
+  <parent></parent>
+</root>
+```
+
+---
+
+# XML: children within the root node
+
+```XML
+<root>
+  <parent name="John" age="35">
+      <child name="Jack" age="11" favoriteToy="Video Game Console"></child>
+      <child name="Jill" age="9" favoriteToy="Plush Animal"></child>
+  </parent>
+  <parent name="Jane" age="46">
+      <child name="Sarah" age="16" favoriteToy="Video Game Console"></child>
+      <child name="Helen" age="8" favoriteToy="Blocks"></child>
+      <child name="James" age="6" favoriteToy="Small Plastic Animals"></child>
+  </parent>
+  <parent name="Chance" age="24"></parent>
+</root>
+```
+
+---
+# XML: children within the root node
+
+```XML
+<root>
+  <parent name="John" age="35">
+      <child name="Jack" age="11" favoriteToy="Video Game Console"></child>
+      <child name="Jill" age="9" favoriteToy="Plush Animal"></child>
+      <FavoritePoem name="Roses">
+          Roses are red.
+          Violents are blue.
+          I love Biml.
+          How about you?
+      </FavoritePoem>
+  </parent>
+  <parent name="Jane" age="46">
+      <child name="Sarah" age="16" favoriteToy="Video Game Console"></child>
+      <child name="Helen" age="8" favoriteToy="Blocks"></child>
+      <child name="James" age="6" favoriteToy="Small Plastic Animals"></child>
+  </parent>
+  <parent name="Chance" age="24"></parent>
+</root>
+```
+
+---
+
+# XML: children within the root node
+
+```XML
+<root>
+  <parent name="John" age="35">
+      <child name="Jack" age="11" favoriteToy="Video Game Console" />
+      <child name="Jill" age="9" favoriteToy="Plush Animal" />
+      <FavoritePoem name="Roses">
+          Roses are red.
+          Violents are blue.
+          I love Biml.
+          How about you?
+      </FavoritePoem>
+  </parent>
+  <parent name="Jane" age="46">
+      <child name="Sarah" age="16" favoriteToy="Video Game Console" />
+      <child name="Helen" age="8" favoriteToy="Blocks" />
+      <child name="James" age="6" favoriteToy="Small Plastic Animals" />
+  </parent>
+  <parent name="Chance" age="24" />
+</root>
+```
+
+---
+
+# XML: Comments
+
+```XML
+<root>
+  <parent name="John" age="35">
+      <child name="Jack" age="11" favoriteToy="Video Game Console" />
+      <child name="Jill" age="9" favoriteToy="Plush Animal" />
+      <FavoritePoem name="Roses">
+          Roses are red.
+          Violents are blue.
+          I love Biml.
+          How about you?
+      </FavoritePoem>
+  </parent>
+*  <!-- Jane does not have a favorite poem -->
+  <parent name="Jane" age="46">
+      <child name="Sarah" age="16" favoriteToy="Video Game Console" />
+*      <!-- Helen prefers the type of block that snaps together -->
+      <child name="Helen" age="8" favoriteToy="Blocks" />
+      <child name="James" age="6" favoriteToy="Small Plastic Animals" />
+  </parent>
+*  <!--<parent name="Chance" age="24" />-->
+</root>
+```
+
+---
+
+# XML: Escaping text data
+
+```XML
+<root>
+  <parent name="John" age="35">
+      <child name="Jack" age="11" favoriteToy="Video Game Console" />
+      <child name="Jill" age="9" favoriteToy="Plush Animal" />
+      <FavoritePoem name="Roses">
+          Roses are red.
+          Violents are blue.
+*          I &amp;lt;3 Biml.
+          How about you?
+      </FavoritePoem>
+  </parent>
+  <!-- Jane does not have a favorite poem -->
+  <parent name="Jane" age="46">
+      <child name="Sarah" age="16" favoriteToy="Video Game Console" />
+      <!-- Helen prefers the type of block that snaps together -->
+      <child name="Helen" age="8" favoriteToy="Blocks" />
+      <child name="James" age="6" favoriteToy="Small Plastic Animals" />
+  </parent>
+  <!--<parent name="Chance" age="24" />-->
+</root>
+```
+
+* `<` becomes `&amp;lt;`
+* `>` becomes `&amp;gt;`
+* `=` becomes `&amp;eq;`
+* `"` becomes `&amp;quot;`
+* `&` becomes `&amp;amp;`
+---
+# XML: CDATA
+
+```XML
+<root>
+  <parent name="John" age="35">
+      <child name="Jack" age="11" favoriteToy="Video Game Console" />
+      <child name="Jill" age="9" favoriteToy="Plush Animal" />
+*      <FavoritePoem name="Roses"><![CDATA[
+          Roses are red.
+          Violents are blue.
+          I <3 Biml.
+          How about you?
+*   ]]></FavoritePoem>
+  </parent>
+  <!-- Jane does not have a favorite poem -->
+  <parent name="Jane" age="46">
+      <child name="Sarah" age="16" favoriteToy="Video Game Console" />
+      <!-- Helen prefers the type of block that snaps together -->
+      <child name="Helen" age="8" favoriteToy="Blocks" />
+      <child name="James" age="6" favoriteToy="Small Plastic Animals" />
+  </parent>
+  <!--<parent name="Chance" age="24" />-->
+</root>
+```
+---
+
+# XML: Schema and validation
+
+* The structure of XML can be specified externally using an XML Schema Definition (XSD)
+* Defines how elements "fit" together
+  * For BIML example: a `<Packages>` element can contain only `<Package>` elements.
+
+   
+```XML
+<Biml xmlns="http://schemas.varigence.com/Biml.xsd" />
+```
+
+> If you have a collection of objects in your Biml file, the elements of that collection will always be children of a wrapper collection element.
+
+---
+
+# XML: Schema and validation
+
+* The structure of XML can be specified externally using an XML Schema Definition (XSD)
+* Defines how elements "fit" together
+  * For BIML example: a `<Packages>` element can contain only `<Package>` elements.
+
+   
+```XML
+<Biml xmlns="http://schemas.varigence.com/Biml.xsd" />
+```
+
+> If you have a collection of objects in your Biml file, the elements of that collection will always be children of a wrapper collection element.
+
+---
+
+class: middle, left
+
+# My First Biml
+
+```xml
+<Biml xmlns="http://schemas.varigence.com/biml.xsd">
+  <Packages>
+      <Package Name="Package1" />
+  </Packages>
+</Biml>
+```
+
+---
+
+class: middle, left
+
+# My Second Biml
+
+```xml
+<Biml xmlns="http://schemas.varigence.com/biml.xsd">
+  <Packages>
+      <Package Name="MyFirstBimlPackage">
+          <Tasks>
+              <Dataflow Name="Dataflow1" />
+              <Container Name="Container1" />
+          </Tasks>
+      </Package>
+  </Packages>
+</Biml>
+```
+
+* More samples can be found at http://bimlscript.com/walkthrough/Details/3110
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({
+        ratio: '16:9',
+        highlightLines: true
+
+      });
+    </script>
+  </body>
+</html>

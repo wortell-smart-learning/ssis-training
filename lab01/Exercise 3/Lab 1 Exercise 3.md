@@ -80,4 +80,4 @@ As you might have guessed, this is a rather unusual way of adding translations. 
 
 ## Next steps
 
-This is the end of lab 01. Have a coffee, discuss your findings about SSIS, and continue with [Lab 2](../../lab02/Exercise%201)!
+This is the end of lab 01. Have a coffee and discuss your findings about SSIS before continuing with  [Lab 2](../../lab02/Exercise%201)!

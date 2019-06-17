@@ -122,7 +122,7 @@
       DTS:ObjectName="CsvFolder">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">C:\course\lab05\exports\</DTS:Property>
+        DTS:Name="ParameterValue">c:\Repos\ssis-training\lab05\exports\</DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
   <DTS:Variables>
@@ -154,7 +154,7 @@
         <DTS:ObjectData>
           <ForEachFileEnumeratorProperties>
             <FEFEProperty
-              Folder="C:\course\lab05\exports\" />
+              Folder="c:\Repos\ssis-training\lab05\exports\" />
             <FEFEProperty
               FileSpec="*.csv" />
             <FEFEProperty

@@ -33,7 +33,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\course\lab06\exports\2014-01.csv">
+          DTS:ConnectionString="c:\Repos\ssis-training\lab06\exports\2014-01.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -122,7 +122,7 @@
       DTS:ObjectName="CsvFolder">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">C:\course\lab06\exports\</DTS:Property>
+        DTS:Name="ParameterValue">c:\Repos\ssis-training\lab06\exports\</DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
   <DTS:Variables>
@@ -144,7 +144,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="ErrorFolder">
       <DTS:VariableValue
-        DTS:DataType="8">C:\course\lab06\exports\error\2018040314591200000</DTS:VariableValue>
+        DTS:DataType="8">c:\Repos\ssis-training\lab06\exports\error\2018040314591200000</DTS:VariableValue>
     </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>
@@ -165,7 +165,7 @@
         <DTS:ObjectData>
           <ForEachFileEnumeratorProperties>
             <FEFEProperty
-              Folder="C:\course\lab06\exports\" />
+              Folder="c:\Repos\ssis-training\lab06\exports\" />
             <FEFEProperty
               FileSpec="*.csv" />
             <FEFEProperty

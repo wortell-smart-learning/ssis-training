@@ -33,7 +33,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\course\lab07\exports\2014\00\export.csv">
+          DTS:ConnectionString="c:\Repos\ssis-training\lab07\exports\2014\00\export.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -123,7 +123,7 @@
       DTS:ObjectName="BaseFolder">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">C:\course\lab07\exports\</DTS:Property>
+        DTS:Name="ParameterValue">c:\Repos\ssis-training\lab07\exports\</DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -154,7 +154,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="FilePath">
       <DTS:VariableValue
-        DTS:DataType="8">C:\course\lab07\exports\2014\00\export.csv</DTS:VariableValue>
+        DTS:DataType="8">c:\Repos\ssis-training\lab07\exports\2014\00\export.csv</DTS:VariableValue>
     </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>

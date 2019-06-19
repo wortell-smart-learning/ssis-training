@@ -17,7 +17,7 @@ In exercise 2 (current exercise) we will extend the error handling using "error 
 
 ### Identify the point at which errors occur in the Data Flow
 
-In the previous exercise, we identified files containing errors: whenever the Data Flow failed, we would copy the file to an "error" folder.
+In the previous exercise, we identified files containing errors: whenever the Data Flow failed, we would move the file to an "error" folder.
 In this exercise, we will look whether we can pinpoint the rows that cause errors.
 
 3. Open DFT Load Reseller Sales from CSV by double-clicking on it.

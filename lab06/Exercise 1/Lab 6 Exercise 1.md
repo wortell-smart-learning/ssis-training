@@ -27,7 +27,7 @@ We will tackle this issue in three steps:
 
 ### Handling errors in the Control Flow
 
-First we will add some error handling to handle unforseen error graciously. In this specific case we'll copy files with errors in a different folder.
+First we will add some error handling to handle unforseen error graciously. In this specific case we'll move files with errors in a different folder.
 To make clear where the file is moving, we will add a variable with the destination folder first.
 
 5. Add a variable called "ErrorFolder"
@@ -36,9 +36,9 @@ To make clear where the file is moving, we will add a variable with the destinat
 6. Define the value of the variable using an expression
 5. Enlarge "FEL ResellerSales exports" somewhat by dragging the bottom corner down
 6. Add a File System Task inside the FEL container
-7. Configure the File System Task, so it will copy the file that's currently being processed the error folder.
+7. Configure the File System Task, so it will move the file that's currently being processed the error folder.
 8. Use a precedence constraint to ensure that this task will only be executed when the Data Flow Task fails
-9. Rename the task to "FST Copy erronous file to error folder"
+9. Rename the task to "FST Move erronous file to error folder"
 
 ![Control flow with error handling](img/01_controlflowerrorhandling.png)
 

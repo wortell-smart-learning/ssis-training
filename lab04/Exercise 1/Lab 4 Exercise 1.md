@@ -50,19 +50,19 @@ In three steps, we are working towards an ETL package that can process all files
 
 12. Use Lookup transformations to look up the corresponding dimension keys for the fact table:
     * LKP dim store key
-      * Connection manager: new connection (server: devmachine, database AdventureWorksDW2016_empty)
+      * Connection manager: new connection (server: localhost, database AdventureWorksDW2016_empty)
       * Table or view: [dbo].[dim_Store]
       * Lookup via: StoreID -> StoreAlternateKey
       * Include "StoreKey" in output
     * LKP dim product key
       * Connect Lookup Match output from LKP dim store key
-      * Connection Manager: devmachine.AdventureworksDW2016_empty (has just been created)
+      * Connection Manager: localhost.AdventureworksDW2016_empty (has just been created)
       * Table or view: [dbo].[dim_Product]
       * Lookup: ProductID -> ProductAlternateKey
       * Include "ProductKey" in output
     * LKP dim Salesterritory key
       * Connect Lookup Match output from LKP dim product key
-      * Connection Manager: devmachine.AdventureworksDW2016_empty (has just been created)
+      * Connection Manager: localhost.AdventureworksDW2016_empty (has just been created)
       * Table or view: [dbo].[dim_SalesTerritory]
       * Lookup: TerritoryID -> SalesTerritoryAlternateKey
       * Include "SalesTerritoryKey" in output

@@ -75,3 +75,7 @@ In three steps, we are working towards an ETL package that can process all files
 ## Finish the package
 
 15. Currently, the package always appends data. For test purposes, add a SQL Task before the Data Flow Task, containing the command `TRUNCATE TABLE dbo.fact_ResellerSales`. Rename the task to "SQL Truncate fact_ResellerSales".
+
+## Next steps
+
+Continue by making this package dynamic in [lab 4 exercise 2](../Exercise%202/Lab%204%20Exercise%202.md)
